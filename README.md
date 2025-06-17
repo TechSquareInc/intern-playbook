@@ -23,7 +23,7 @@ $ git checkout dev
 ```bash
 $ python -m venv .venv
 $ source .venv/bin/activate
-(.venv)$ python -m pip install sphinx
+(.venv)$ python -m pip install -r requirements.txt
 ```
 
 ### 3. Build the Documentation Locally
