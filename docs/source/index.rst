@@ -3,16 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Intern Playbook documentation
-=============================
+Intern Playbook
+===============
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Welcome to TechSquare Intern Documentation! This guide is designed to help you get started, learn core system administration skills, work with programs and applications used at TechSquare, and learn more about topics related to High Performance Computing.
+
+Contents
+--------
+
 
 
 .. toctree::
    :maxdepth: 2
+   :caption: Getting Started
 
-   getting-started
-   tools
+   getting-started/morning-routine
+   getting-started/getting-on-slack
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Fundamentals
+
+   fundamentals/intro-to-linux
