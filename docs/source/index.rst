@@ -19,6 +19,7 @@ Contents
 
    getting-started/morning-routine
    getting-started/getting-on-slack
+   getting-started/logging-hours
    
 .. toctree::
    :maxdepth: 2
