@@ -27,3 +27,6 @@ Contents
    :caption: Fundamentals
 
    fundamentals/intro-to-linux
+   fundamentals/installing-the-system
+   fundamentals/super-user-privileges
+   fundamentals/overview-ssh
