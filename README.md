@@ -18,25 +18,23 @@ $ cd intern-playbook
 $ git checkout dev
 ```
 
-### 2. Setup Your Python Environment
+### 2. Install Required Packages
 
 ```bash
-$ python -m venv .venv
-$ source .venv/bin/activate
-(.venv)$ python -m pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ### 3. Build the Documentation Locally
 
 ```bash
-cd docs
-make html
+$ cd docs
+$ make html
 ```
 
 #### View it in your browser:
 
 ```bash
-xdg-open docs/build/html/index.html
+$ xdg-open docs/build/html/index.html
 ```
 
 ## Deployment Workflow
