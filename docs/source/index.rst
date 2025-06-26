@@ -20,7 +20,8 @@ Contents
    getting-started/morning-routine
    getting-started/getting-on-slack
    getting-started/logging-hours
-   
+   getting-started/your-techsquare-email
+
 .. toctree::
    :maxdepth: 2
    :caption: Fundamentals
