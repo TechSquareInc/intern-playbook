@@ -20,9 +20,13 @@ Contents
    getting-started/morning-routine
    getting-started/getting-on-slack
    getting-started/logging-hours
-   
+   getting-started/your-techsquare-email
+
 .. toctree::
    :maxdepth: 2
    :caption: Fundamentals
 
    fundamentals/intro-to-linux
+   fundamentals/installing-the-system
+   fundamentals/super-user-privileges
+   fundamentals/overview-ssh
