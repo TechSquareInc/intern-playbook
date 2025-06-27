@@ -13,25 +13,25 @@ SSH provides a mechanism for:
 - Transfering inputs from a client to a host.
 - Relaying output back to a client.
 
-By default, SSH works over TCP port 22 to communicate. It encrypts all data excahgned between the client and server. including all credentials, commands, and output.
+By default, SSH works over TCP port 22 to communicate. It encrypts all data excahgned between the client and server, including all credentials, commands, and output.
 
 ## Usage
 
-Basic syntax for connecting would look like: `ssh {USER@REMOTE_HOST}`. 
-For example, `ssh tim@example.com` or `ssh chloe@192.168.122.208`. 
-Additionally, you could specify what port you would like to connect through, `ssh -p 2222 user@host`, or run a single command on a remote system, `ssh user@host 'ls -la'`.
+Basic syntax for connecting would look like: `ssh {USER@REMOTE_HOST}`.
+For example, `ssh tim@example.com` or `ssh chloe@192.168.122.208`.
+Additionally, you could specify what port you would like to connect through, `ssh -p 2222 user@host`, or run a single command on a remote system, `ssh user@host 'ls -la'`. More information on using `ssh` can be found in the [`ssh` man pages](https://man7.org/linux/man-pages/man1/ssh.1.html).
 
 ## Authentication 
 
 SSH supports two main types of authentication:
 
 1. **Password authentication:**
-	- The client sends a password (encrypted) to the server. 
+	- The client sends a password (encrypted) to the server.
 	- The server verifes the password against its user database.
 2. **Public key authentication** (recommended)
 	- The client generates a key pair (private & public).
-	- The public key is placed on the server (~/.ssh/authorized_keys)
-	- During connection, the server challenges the client with a random encrypted message using the public key from `authorized keys` and the client proves ownership becasue only the private key can decrypt that challenge message. The client decrypts it locally and sends back the result (usually as a signature). The server then verfies the response matches what it expects, and if it does, access is granted. 
+	- The public key is placed on the server (`~/.ssh/authorized_keys`)
+	- During connection, the server challenges the client with a random encrypted message using the public key from `authorized keys`(previously provided to the server by the client) and the client proves ownership becasue only the private key can decrypt that challenge message. The client decrypts it locally and sends back the result (usually as a signature). The server then verfies the response matches what it expects, and if it does, access is granted.
 	- **Note:** this is a more secure method than passwords as it allows for features like passpharse-protected keys or hardware tokens like YubiKeys. Unlike a password (although encrypted) the private key never leaves the client machine.
 
 ## Encryption

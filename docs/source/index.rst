@@ -30,3 +30,9 @@ Contents
    fundamentals/installing-the-system
    fundamentals/super-user-privileges
    fundamentals/overview-ssh
+   fundamentals/generating-ssh-keys
+   fundamentals/learn-bash-scripting
+   fundamentals/getting-started-with-git
+   fundamentals/learning-vim
+   fundamentals/using-screen-and-tmux
+   fundamentals/learning-markdown

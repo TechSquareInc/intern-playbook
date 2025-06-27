@@ -2,6 +2,8 @@
 
 The "root" user is the superuser account in Linux systems. Users can temporarily gain root privileges using the `sudo` command, which requires authenticaion from the users account. The user will only have `sudo` privileges if the account is listed in the sudoers file.
 
+---
+
 ## Adding a User to the Sudoers File
 
 To add a user to the sudoers file, you will need to edit the `/etc/sudoers` file. As best practice, you should use the `visudo` command to open and edit this file. Typically, you'll add a line specifying the user and their privileges, such as `username	ALL=(ALL:ALL)	ALL`. For more information about the sudoers file, visit [this resource](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-configuring-the-linux-sudoers-file).
