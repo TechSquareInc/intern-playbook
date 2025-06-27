@@ -32,3 +32,4 @@ Contents
    fundamentals/overview-ssh
    fundamentals/generating-ssh-keys
    fundamentals/learn-bash-scripting
+   fundamentals/getting-started-with-git
