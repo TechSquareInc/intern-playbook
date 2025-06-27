@@ -31,3 +31,4 @@ Contents
    fundamentals/super-user-privileges
    fundamentals/overview-ssh
    fundamentals/generating-ssh-keys
+   fundamentals/learn-bash-scripting
