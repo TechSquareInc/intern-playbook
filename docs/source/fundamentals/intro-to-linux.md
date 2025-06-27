@@ -1,6 +1,8 @@
 # Intro to Linux
 *Those who do not understand Linux are codemn to reinvent it, poorly.*
 
+---
+
 ## Begin
 
 1. A good place to start learning or brush up on Linux knowledge is [Linux Journey](https://linuxjourney.com/).

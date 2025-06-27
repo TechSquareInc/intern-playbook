@@ -2,6 +2,8 @@
 
 SSH (Secure Shell) keys provide a secure way to authenticate with remote systems without using a password. This guide will walk you through generating a new SSH key pair on your local machine. 
 
+---
+
 ## What are SSH Keys?
 
 SSH keys are a pair of cryptographic keys used to authenticcate a user with a remote server. The key pair consists of:

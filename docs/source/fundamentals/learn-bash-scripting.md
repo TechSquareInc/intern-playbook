@@ -2,6 +2,8 @@
 
 *Bash is a Unix shell and command language*
 
+---
+
 ## What is Bash?
 
 Bash (Bourne Again SHell) is a command-line interpreter that executes commands from a terminal or a file. Bash scripts are plain text files that contain a series of commands to be executed sequentially. Bash scripting allows you to automate tasks in Unix-like systems by writing a series of commands in a script file.
