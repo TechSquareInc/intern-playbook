@@ -6,19 +6,19 @@
 
 ## Step 1: Set Up the NFS Server
 
-1. Install NFS Server Tools
+1. **Install NFS Server Tools**
 ```bash
 sudo yum install nfs-utils
 sudo systemctl enable --now nfs-server
 ```
 
-2. Create a Shared Directory
+2. **Create a Shared Directory**
 ```bash
 sudo mkdir -p /srv/nfs/shared
 sudo chown nfsnobody:nfsnobody /srv/nfs/shared
 ```
 
-3. Configure Exports
+3. **Configure Exports**
 Edit /etc/exports:
 ```bash
 /srv/nfs/shared 192.168.1.0(rw,sync,no_subtree_check)
@@ -38,12 +38,12 @@ sudo firewall-cmd --reload
 
 ## Step 2: Set Up the NFS Client
 
-1. Install NFS Client Tools
+1. **Install NFS Client Tools**
 ```bash
 sudo yum install nfs-utils
 ```
 
-2. Test the Mount (optional)
+2. **Test the Mount** (optional)
 ```bash
 sudo mount -t nfs server_ip:/srv/nfs/shared /mnt
 ```
@@ -51,12 +51,12 @@ You should see the shared fiels under /mnt.
 
 ## Step 3: Configure AutoFS on the Client
 
-1. Install autoFS
+1. **Install autoFS**
 ```bash
 sudo yum install autofs
 ```
 
-2. Configure AutoFS Maps
+2. **Configure AutoFS Maps**
 Edit /etc/auto.master and add this line:
 ```bash
 /nfs /etc/auto.nfs
@@ -68,12 +68,12 @@ shared -rw,soft,intr server_ip:/srv/nfs/shared
 ```
 This tells AutoFS to mount `server_ip:/srv/nfs/shared` when accessed.
 
-3. Restart AutoFS
+3. **Restart AutoFS**
 ```bash
 sudo systemctl restart autofs
 ```
 
-4. Test the Mount
+4. **Test the Mount**
 ```bash
 ls /nfs/shared
 ```
