@@ -85,3 +85,4 @@ Press `:` in Normal mode to enter the command line, then:
 - [OpenVim](https://openvim.com/) an interactive tutorial available through your browser
 - [Vim Adventures](https://vim-adventures.com/) learn Vim while playing a game
 - [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) a book for Vim users who want to learn how to customize Vim. Before reading you should be comfortable editing text in Vim and know certain terms like "buffer," "window," and "insert mode."
+- [Vim Cheatsheet](https://devhints.io/vim) commonly used keystrokes for easy reference
