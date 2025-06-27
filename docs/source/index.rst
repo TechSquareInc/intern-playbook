@@ -33,3 +33,4 @@ Contents
    fundamentals/generating-ssh-keys
    fundamentals/learn-bash-scripting
    fundamentals/getting-started-with-git
+   fundamentals/learning-vim
