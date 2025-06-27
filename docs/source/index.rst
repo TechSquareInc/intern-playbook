@@ -34,3 +34,4 @@ Contents
    fundamentals/learn-bash-scripting
    fundamentals/getting-started-with-git
    fundamentals/learning-vim
+   fundamentals/using-screen-and-tmux
