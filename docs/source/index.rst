@@ -36,3 +36,4 @@ Contents
    fundamentals/learning-vim
    fundamentals/using-screen-and-tmux
    fundamentals/learning-markdown
+   fundamentals/nfs-autofs
