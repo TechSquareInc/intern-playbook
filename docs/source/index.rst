@@ -30,3 +30,4 @@ Contents
    fundamentals/installing-the-system
    fundamentals/super-user-privileges
    fundamentals/overview-ssh
+   fundamentals/generating-ssh-keys
