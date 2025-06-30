@@ -10,7 +10,7 @@
 6. [Writing Bash Scripts](../fundamentals/learn-bash-scripting)
 7. [Generating SSH Keys](../fundamentals/generating-ssh-keys)
 8. [Learning Markdown](../fundamentals/learning-markdown)
-9. [Using Thunderbird](linklater)
+9. [Using Thunderbird](../applications/using-thunderbird)
 10. [Debugging a Node](linklater)
 11. [Installing OSSEC](linklater)
 12. [Using Salt](linklater)

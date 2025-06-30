@@ -44,3 +44,9 @@ Contents
    fundamentals/learning-markdown
    fundamentals/nfs-autofs
    fundamentals/apache-web-server
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Applications
+
+   applications/using-thunderbird
