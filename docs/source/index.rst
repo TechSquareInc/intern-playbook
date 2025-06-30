@@ -43,3 +43,4 @@ Contents
    fundamentals/using-screen-and-tmux
    fundamentals/learning-markdown
    fundamentals/nfs-autofs
+   fundamentals/apache-web-server
