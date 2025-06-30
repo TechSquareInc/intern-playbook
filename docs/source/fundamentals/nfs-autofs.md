@@ -4,80 +4,136 @@
 
 ---
 
-## Step 1: Set Up the NFS Server
+## Step 1: Set Up NFS Export on Server
+- Setup NFS server named (server) on a VM and share `/home` to only (client)
 
-1. **Install NFS Server Tools**
+1. **Install NFS Server Tools and NFS Server**
 ```bash
 sudo yum install nfs-utils
-sudo systemctl enable --now nfs-server
+sudo yum install nfs-kernel-server
 ```
 
-2. **Create a Shared Directory**
+2. **Configure Exports**
+Add the export rule to `/etc/exports`:
 ```bash
-sudo mkdir -p /srv/nfs/shared
-sudo chown nfsnobody:nfsnobody /srv/nfs/shared
+/home client_IP(rw,sync,no_subtree_check)
 ```
+- Replace `client_IP` with the actual IP or hostname of the client.
 
-3. **Configure Exports**
-Edit /etc/exports:
+3. **Restart the Service**
 ```bash
-/srv/nfs/shared 192.168.1.0(rw,sync,no_subtree_check)
+sudo systemctl restart nfs-kernel-server
 ```
-Replace 192.168.1.0 with your client's subnet.
 
-Apply the changes:
+
+## Step 2: Set Up User on Server
+
+1. **Create `tsqaure` User on Server**
 ```bash
-sudo exportfs -ra
+sudo useradd -m -d /home/tsquare tsquare
+sudo passwd tsquare
 ```
+- This user's home folder now lives on the NFS-exported directory /home.
 
-Allow NFS traffic through firewall:
+## Step 3: Mount Export on Client
+
+1. **Install NFS Client**
 ```bash
-sudo firewall-cmd --add-service=nfs --permanent
-sudo firewall-cmd --reload
+sudo yum install nfs-common
 ```
 
-## Step 2: Set Up the NFS Client
-
-1. **Install NFS Client Tools**
+2. **Mount the NFS Share**
 ```bash
-sudo yum install nfs-utils
+sudo mount server:/home /mnt/home
 ```
 
-2. **Test the Mount** (optional)
+## Step 4: Enable Persistence via `/etc/fstab`
+
+1. **Make `/mnt/home` Permanent Across Reboot (on client)**
+Edit the `/etc/fstab` and add:
 ```bash
-sudo mount -t nfs server_ip:/srv/nfs/shared /mnt
+server:/home	/mnt/home	nfs	defaults	0 0
 ```
-You should see the shared fiels under /mnt.
+- This ensures it mounts on boot.
 
-## Step 3: Configure AutoFS on the Client
+## Step 5: Add Client User Pointing to Mounted Home
 
-1. **Install autoFS**
+1. **Add a User to (client) and Make `/mnt/home` their Home Directory**
+Let's say the user is `tsquare`, and their home is mounted over NFS:
+```bash
+sudo user add -d /mnt/home/tsquare -s /bin/bash tsquare
+sudo passwd tsquare
+```
+- Now when `tsquare` logs in, it uses `/mnt/home/tsquare` as their home, backed by the NFS share.
+
+## Step 6: Migrate NFS Mount
+
+1. **On (client) Migrate `/mnt/home` to `/home` and Retain Permanent Users**
+- This means you want the server's `/home` (shared via NFS) to be mounted as the local `/home` directory on the client. Start by unmounting `/mnt/home`:
+```bash
+sudo umount /mnt/home
+```
+
+- Update `/etc/fstab`:
+```bash
+server:home	/home	nfs	defaults	0 0
+```
+
+- Mount it:
+```bash
+sudo mount -a
+```
+
+- Now the `/home` directory on the client is actually coming from the server via NFS.
+
+**Note:** You must create the `tsquare` user on the client with the same UID/GID as on the server.
+```bash
+sudo useradd -u [UID] -g [GID] -d /home/tsquare -s /bin/bash tsquare
+```
+- Use `id tsquare` on the server to fidn UID/GID.
+- This ensures correct ownership of files when `tsquare` logs into the client.
+
+## Step 7: Use AutoFS for Dynamic Mounting
+- Setup autofs on (client) so that `/server/home` works. This uses autofs to mount the NFS share on demand.
+
+1. **Install AutoFS**
 ```bash
 sudo yum install autofs
 ```
 
-2. **Configure AutoFS Maps**
-Edit /etc/auto.master and add this line:
+2. **Edit `/etc/auto.master` and Add**
 ```bash
-/nfs /etc/auto.nfs
+/server	/etc/auto.home
 ```
 
-Create /etc/auto.nfs
+3. **Create `/etc/auto.home`:**
 ```bash
-shared -rw,soft,intr server_ip:/srv/nfs/shared
+home	-fstype=nfs	server:/home
 ```
-This tells AutoFS to mount `server_ip:/srv/nfs/shared` when accessed.
 
-3. **Restart AutoFS**
+4. **Restart AutoFS**
 ```bash
 sudo systemctl restart autofs
 ```
+- Now when you `cd /server/home`, autofs automatically mounts it.
 
-4. **Test the Mount**
+## Step 8: Enable Root Access
+
+- Share `server:/home` with your desktop so root can write a file to `/home/root` as root. On the server:
+
+1. **Allow Root Access in `/etc/exports`**
 ```bash
-ls /nfs/shared
+/home	desktop_IP(rw,sync,no_subtree_check,no_root_squash)
 ```
-It should auto-mount the directory. If unused for a few minutes, AutoFS will unmount it automatically.
+- `no_root_squash` lets the remote root user act as root on the sahre -- use with caution!
+
+2. **Mount the Share and Write as Root**
+- On the desktop:
+```bash
+sudo mount serder:/home /mnt/home
+sudo touch /mnt/home/root/hello.txt
+```
+
 
 ## Things to Keep in Mind
 - AutoFS works in tandem with NFS, rather than replacing it.

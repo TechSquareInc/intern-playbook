@@ -14,7 +14,7 @@ Contents
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Getting Started
 
    getting-started/morning-routine
@@ -23,7 +23,13 @@ Contents
    getting-started/your-techsquare-email
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: Intern Tasks
+
+   intern-tasks/intern-tasks-list
+
+.. toctree::
+   :maxdepth: 1
    :caption: Fundamentals
 
    fundamentals/intro-to-linux
@@ -37,3 +43,10 @@ Contents
    fundamentals/using-screen-and-tmux
    fundamentals/learning-markdown
    fundamentals/nfs-autofs
+   fundamentals/apache-web-server
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Applications
+
+   applications/using-thunderbird
