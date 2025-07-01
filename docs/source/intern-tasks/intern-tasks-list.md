@@ -2,6 +2,8 @@
 
 *This list of tasks serves as starting point for diving into different projects.*
 
+---
+
 1. [Installing the System](../fundamentals/installing-the-system)
 2. [Getting on Slack](../getting-started/getting-on-slack)
 3. [Getting Started with Git](../fundamentals/getting-started-with-git)
