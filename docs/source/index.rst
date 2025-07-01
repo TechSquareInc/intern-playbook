@@ -50,7 +50,8 @@ Contents
    :caption: Applications
 
    applications/using-thunderbird
-
+   applications/creating-virtual-machine
+   applications/using-salt
 
 .. toctree::
    :maxdepth: 1
