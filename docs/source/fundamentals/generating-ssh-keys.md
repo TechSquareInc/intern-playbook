@@ -18,9 +18,9 @@ To generate a new SSH key pair:
 1. Open your terminal
 2. Run the following command:
 ```
-ssh-keygen -t ed255129 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-- -t ed2555519 specifies the key type. ed25519 is a secure and modern alternative to RSA.
+- -t ed25519 specifies the key type. ed25519 is a secure and modern alternative to RSA.
 - -C adds a label to your key, typically your email address.
 3. You'll be prompted to choose where to save the key. The default location is generally `/home/user/.ssh/id_ed25519`
 4. You'll then be asked to enter a passphrase. This step is optional, but reccomended. Adding a passphrase provides extra security if your private key is ever stolen.
