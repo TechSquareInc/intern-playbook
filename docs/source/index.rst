@@ -50,3 +50,10 @@ Contents
    :caption: Applications
 
    applications/using-thunderbird
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Miscellaneous
+
+   misc/intern-learning-resources
