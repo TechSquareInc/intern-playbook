@@ -2,6 +2,8 @@
 
 *A collection of links to help with additional learning.*
 
+---
+
 ## Bash
 - [Bash Scripting Cheatsheet](https://devhints.io/bash): Quick reference guide
 - [ExplainShell](https://explainshell.com/): Command help text

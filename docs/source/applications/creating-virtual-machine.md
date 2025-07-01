@@ -2,6 +2,8 @@
 
 *This guide walks you through installing KVM and Libvirt tools on your Linux desktop, and creating a virtual machine.* 
 
+---
+
 ## Step 1: Install KVM, Libvirt, and Virt-Manager
 1. Check that your hardware supports virtualization:
 ```bash

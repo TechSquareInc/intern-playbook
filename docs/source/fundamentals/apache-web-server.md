@@ -1,6 +1,8 @@
 # Setting Up an Apache Web Server
 *Apache, or the Apache HTTP Server, is a free and open-source web server software. It is a widley used tool for delivering web content over the internet by acting as a bridge between web servers and users. Essentially, when someone visits a website, Apache is often the software that handles requests and sends the websites's files back to their browser.*
 
+---
+
 ## Build a Personal Web Server with Apache
 
 The purpose of this project is to install and configure an Apache HTTP Server on a Linux VM, and serve custom HTML sites.

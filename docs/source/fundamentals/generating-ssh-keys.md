@@ -1,6 +1,6 @@
 # Generating SSH Keys
 
-SSH (Secure Shell) keys provide a secure way to authenticate with remote systems without using a password. This guide will walk you through generating a new SSH key pair on your local machine. 
+*SSH (Secure Shell) keys provide a secure way to authenticate with remote systems without using a password. This guide will walk you through generating a new SSH key pair on your local machine.*
 
 ---
 

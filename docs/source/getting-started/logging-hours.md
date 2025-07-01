@@ -1,5 +1,9 @@
 # Logging Hours 
 
+*Quick instructional guide for using the hours-beta.techsquare application.*
+
+---
+
 1. To log your hours, visit the [hours](https://hours-beta.techsquare.com/hours#-1) page.
 2. Sign in using Google SSO (with your techsquare credentials).
 3. Generally, projects you spend time working on will be charted under **MGHPCC/INTERN/NAME**.

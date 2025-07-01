@@ -1,5 +1,7 @@
 # Using Salt
 
+*Introduction to SaltStack, a Linux configuration managment tool.*
+
 ## What is Salt?
 **Salt,** also called **SaltStack,** is an open-source configuration managment and automation tool. It allows system administrators to:
 - Define system states (e.g. install packages, run services, configure users, etc.)
