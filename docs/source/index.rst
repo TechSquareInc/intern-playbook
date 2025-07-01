@@ -58,3 +58,4 @@ Contents
    :caption: Miscellaneous
 
    misc/intern-learning-resources
+   misc/intern-docs-style-guide
