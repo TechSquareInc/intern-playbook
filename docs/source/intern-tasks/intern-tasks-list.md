@@ -2,6 +2,8 @@
 
 *This list of tasks serves as starting point for diving into different projects.*
 
+---
+
 1. [Installing the System](../fundamentals/installing-the-system)
 2. [Getting on Slack](../getting-started/getting-on-slack)
 3. [Getting Started with Git](../fundamentals/getting-started-with-git)
@@ -13,7 +15,8 @@
 9. [Using Thunderbird](../applications/using-thunderbird)
 10. [Debugging a Node](linklater)
 11. [Installing OSSEC](linklater)
-12. [Using Salt](linklater)
+12. [Setting Up KVM Virtual Machine](../applications/creating-virtual-machine)
+12. [Using Salt](../applications/using-salt)
 13. [Using Engaging](linklater)
 14. [Using Screen and Tmux](../fundamentals/using-screen-and-tmux)
 15. [Running Python on the Cluster](linklater)

@@ -50,3 +50,12 @@ Contents
    :caption: Applications
 
    applications/using-thunderbird
+   applications/creating-virtual-machine
+   applications/using-salt
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Miscellaneous
+
+   misc/intern-learning-resources
+   misc/intern-docs-style-guide

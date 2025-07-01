@@ -1,5 +1,9 @@
 # Using Screen and Tmux
 
+*Brief introduction to Linux multiplexers like `screen` and `tmux`.*
+
+---
+
 ## Introduction
 
 `tmux` and `screen` are terminal multiplexers. This means that both are command line utilities that let you run multiple shell sessions in one terminal, detach and reattach to sessions, and keep long-running tasks alive (even after SSH dissconnection). This can be especially useful when working on remote servers. The two of them perform the same job, however in different ways, and you'll find that some tasks work better in one versus the other.

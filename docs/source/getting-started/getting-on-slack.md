@@ -1,5 +1,9 @@
 # Getting on Slack
 
+*Slack is a real-time messaging and collaboration platform used by teams to communicate effectively.*
+
+---
+
 ## Installation
 
 1. Go to the Slack [downloads page](https://slack.com/downloads/linux) and download the RPM file.
