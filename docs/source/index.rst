@@ -55,6 +55,12 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :caption: Cluster
+
+   cluster/running-python-on-the-cluster
+
+.. toctree::
+   :maxdepth: 1
    :caption: Miscellaneous
 
    misc/intern-learning-resources
