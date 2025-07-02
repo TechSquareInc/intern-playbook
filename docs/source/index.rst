@@ -44,6 +44,7 @@ Contents
    fundamentals/learning-markdown
    fundamentals/nfs-autofs
    fundamentals/apache-web-server
+   fundamentals/learn-python
 
 .. toctree::
    :maxdepth: 1
@@ -52,6 +53,12 @@ Contents
    applications/using-thunderbird
    applications/creating-virtual-machine
    applications/using-salt
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Cluster
+
+   cluster/running-python-on-the-cluster
 
 .. toctree::
    :maxdepth: 1

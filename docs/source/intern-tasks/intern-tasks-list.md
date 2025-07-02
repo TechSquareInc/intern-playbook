@@ -14,11 +14,11 @@
 8. [Learning Markdown](../fundamentals/learning-markdown)
 9. [Using Thunderbird](../applications/using-thunderbird)
 10. [Debugging a Node](linklater)
-11. [Installing OSSEC](linklater)
+11. [Learn Python](../fundamentals/learn-python)
 12. [Setting Up KVM Virtual Machine](../applications/creating-virtual-machine)
 12. [Using Salt](../applications/using-salt)
 13. [Using Engaging](linklater)
 14. [Using Screen and Tmux](../fundamentals/using-screen-and-tmux)
-15. [Running Python on the Cluster](linklater)
+15. [Running Python on the Cluster](../cluster/running-python-on-the-cluster)
 16. [Install and Using Veracrypt](linklater)
 

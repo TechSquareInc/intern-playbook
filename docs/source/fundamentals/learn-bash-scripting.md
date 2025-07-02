@@ -106,3 +106,5 @@ The default editor in bash for most linux systems is [nano](https://www.nano-edi
 - [GNU Bash Manual](https://www.gnu.org/software/bash/manual/bash.html) an all in one comprehensive Bash guide.
 - [HackerRank Shell](https://www.hackerrank.com/domains/shell) practice your Bash knowledge by solving challenges.
 - [learnyoubash](https://github.com/denysdovhan/learnyoubash) a work shop based on the [bash-handbook](https://github.com/denysdovhan/bash-handbook).
+- [Nano vs Emacs vs Vim](https://www.redhat.com/en/blog/3-text-editors-compared): A "pro" position on each text editors features.
+- [Shell Style Guide](https://google.github.io/styleguide/shellguide.html#when-to-use-shell): A more advance look at Bash shell scripting.
