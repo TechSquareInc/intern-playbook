@@ -13,12 +13,12 @@ SSH provides a mechanism for:
 - Transfering inputs from a client to a host.
 - Relaying output back to a client.
 
-By default, SSH works over TCP port 22 to communicate. It encrypts all data excahgned between the client and server, including all credentials, commands, and output.
+By default, SSH works over TCP port 22 to communicate. It encrypts all data exchanged between the client and server, including all credentials, commands, and output.
 
 ## Usage
 
 Basic syntax for connecting would look like: `ssh {USER@REMOTE_HOST}`.
-For example, `ssh tim@example.com` or `ssh chloe@192.168.122.208`.
+- For example, `ssh tim@example.com` or `ssh chloe@192.168.122.208`.
 Additionally, you could specify what port you would like to connect through, `ssh -p 2222 user@host`, or run a single command on a remote system, `ssh user@host 'ls -la'`. More information on using `ssh` can be found in the [`ssh` man pages](https://man7.org/linux/man-pages/man1/ssh.1.html).
 
 ## Authentication 
@@ -42,4 +42,10 @@ SSH uses strong encryption algorithms as well as hashing to secure communication
 
 ## Hashing
 
-Unlike the previous two forms of encryption, hashing is never meant to be decrypted. Hashing takes an input (like a password) and runs it through a mathematical function to produce a fixed-length string of characters called a hash. Becasue this function happens one-way, you cannot reverse the hash to get an original input. This makes it secure for passwords and data verification. 
+Unlike the previous two forms of encryption, hashing is never meant to be decrypted. Hashing takes an input (like a password) and runs it through a mathematical function to produce a fixed-length string of characters called a hash. Becasue this function happens one-way, you cannot reverse the hash to get an original input. This makes it secure for passwords and data verification.
+
+## Resources
+- [Hashing vs Encryption](https://comodosslstore.com/resources/hashing-vs-encryption-simplifying-the-differences/): A breakdown of hashing and encryption methods.
+- [SSH Port Forwarding Tutorial](https://www.digitalocean.com/community/tutorials/ssh-port-forwarding): A deep dive into SSH Portforwarding.
+- [Open SSH Man Pages](https://www.openssh.com/manual.html): Man pages for OpenSSH.
+- [ssh(1) Remote Login Client Man Pages](https://man7.org/linux/man-pages/man1/ssh.1.html): A more in depth description of `ssh` and it's fucntions and capabilities.

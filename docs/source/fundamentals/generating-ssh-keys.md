@@ -50,5 +50,7 @@ ssh-add ~/.ssh/id_ed25519
 ```
 
 ## Resources 
-- [GitHub Docs: Generating SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-- [OpenSSH Manual: ssh-keygen](https://man.openbsd.org/ssh-keygen.1)
+- [GitHub Docs: Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh): Resources about SSH and connecting to GitHub.
+- [GitHub Docs: Generating New SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent): Generate SSH keys to enable authentication for Git operations over SSH.
+- [OpenSSH Manual: ssh-keygen](https://man.openbsd.org/ssh-keygen.1): Deep dive on `ssh-keygen`, the OpenSSH authentication key utilty.
+- [OpenSSH Key Generating](https://help.ubuntu.com/community/SSH/OpenSSH/Keys): Description of public and private keys, how to generate them for key-based SSH logins.
