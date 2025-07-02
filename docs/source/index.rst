@@ -44,6 +44,7 @@ Contents
    fundamentals/learning-markdown
    fundamentals/nfs-autofs
    fundamentals/apache-web-server
+   fundamentals/learn-python
 
 .. toctree::
    :maxdepth: 1

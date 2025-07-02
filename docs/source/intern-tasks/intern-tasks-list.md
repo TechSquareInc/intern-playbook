@@ -14,7 +14,7 @@
 8. [Learning Markdown](../fundamentals/learning-markdown)
 9. [Using Thunderbird](../applications/using-thunderbird)
 10. [Debugging a Node](linklater)
-11. [Installing OSSEC](linklater)
+11. [Learn Python](../fundamentals/learn-python)
 12. [Setting Up KVM Virtual Machine](../applications/creating-virtual-machine)
 12. [Using Salt](../applications/using-salt)
 13. [Using Engaging](linklater)
