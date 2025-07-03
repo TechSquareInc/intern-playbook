@@ -4,7 +4,7 @@ This repository contains documentation for interns, built using [Sphinx](https:/
 
 ##  Purpose
 
-This site is designed to provide onboarding guides, technical documentation, and resources for interns at TechSquare. The site is authored using reStructuredText and will be maintained via GitHub workflows.
+This site is designed to provide onboarding guides, technical documentation, and resources for interns at TechSquare. The site is authored using primarily Markdown, as well as reStructuredText, and will be maintained via GitHub workflows.
 
 ---
 
