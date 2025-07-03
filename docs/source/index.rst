@@ -54,6 +54,7 @@ Contents
    applications/creating-virtual-machine
    applications/using-salt
    applications/configure-postfix
+   applications/using-checkmk
 
 .. toctree::
    :maxdepth: 1
