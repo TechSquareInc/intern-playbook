@@ -111,9 +111,10 @@ echo "mailtest" | mail -s "mailtest" <user>@<domain.com>
 8. If successful, you will recieve an email in your inbox from your techsquare domain.
 
 ## Resources
-- [Sign-in with App Passwords](https://support.google.com/mail/answer/185833?hl=en): A google help center guide to app passwords
+- [Postfix Official Documentation](https://www.postfix.org/documentation.html): Everything Postfix explained.
+- [Sign-in with App Passwords](https://support.google.com/mail/answer/185833?hl=en): A google help center guide to app passwords.
 - [A Comprehensive Guide to Connect Postfix to Gmail](https://www.systoolsgroup.com/add/postfix-to-gmail-account/?srsltid=AfmBOopprwRvW4esdO2xmgbWs9XG6gIvAkKxQFCEouka6jc8jizHtoFE): An updated resource for confgiruing Postfix (Debian environment).
-- [How to Configure Gmail Server as a Relayhost in Postfix](https://access.redhat.com/solutions/3201002): An updated resource for configuring Postfix (REHL environment)
+- [How to Configure Gmail Server as a Relayhost in Postfix](https://access.redhat.com/solutions/3201002): An updated resource for configuring Postfix (REHL environment).
 - [Create and Manage Your App Passwords](https://myaccount.google.com/apppasswords): Quick link to creating app passwords
 - [Google Security Settings](https://myaccount.google.com/security): Your Google account's security settings page.
 
