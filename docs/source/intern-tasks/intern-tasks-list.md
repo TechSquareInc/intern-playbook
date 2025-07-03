@@ -20,5 +20,6 @@
 13. [Using Engaging](linklater)
 14. [Using Screen and Tmux](../fundamentals/using-screen-and-tmux)
 15. [Running Python on the Cluster](../cluster/running-python-on-the-cluster)
+16. [Write a Bash Script to Enter Hours](../intern-tasks/bash-script-for-hours)
 16. [Install and Using Veracrypt](linklater)
 

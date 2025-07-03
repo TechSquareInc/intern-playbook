@@ -53,6 +53,7 @@ Contents
    applications/using-thunderbird
    applications/creating-virtual-machine
    applications/using-salt
+   applications/configure-postfix
 
 .. toctree::
    :maxdepth: 1

@@ -100,6 +100,9 @@ greet "Chloe"
 ### Quality of Life Improvements
 
 The default editor in bash for most linux systems is [nano](https://www.nano-editor.org/dist/v2.2/nano.html). [Vim/Vi](https://linux.die.net/man/1/vi) is an editor that can be especially useful for editing programs like bash scripts. Generally speaking, Vim is a more intuitive text editor, and will likely save you time and sanity when editing text files. You can ask your Linux system to default your editor to vim by calling `export EDITOR=vim`. Additionally, if you want to take things a step further, you can edit your commands with vim keybindings directly in the command line `set -o vi` and if you don't like this change you can always revert back `set -o emacs`. Most .bashrc configs come with ll being an alias to "ls -l", but if it's not already set, you can add this alias, or other aliases, to the .bashrc file `alias ll="ls -l"`.
+
+### Challenge
+[Write a bash script to enter your hours](../intern-tasks/bash-script-for-hours)
  
 ### Resources
 - [Learn Shell](https://www.learnshell.org/) an interactive way to learn Bash basics.
