@@ -15,9 +15,9 @@ For Rocky 9.x, you'll use `https://dl.fedoraproject.org/pub/epel/epel-release-la
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 ```
 
-2. You will need to enable the `subscription-manager` repository on RHEL-based Linux systems using:
+2. You will need to enable the CodeReady Builder repository on Rocky 9 Linux systems using:
 ```bash
-subscription-manager repos --enable "codeready-builder-for-rhel-8-x86_64-rpms"
+sudo dnf config-manager --set-enabled crb
 ```
 
 3. Setup SELinux and Firewall:
@@ -51,8 +51,8 @@ rpm --import Check_MK-pubkey.gpg
 
 Once you the key has been imported, you can verify the package and install it:
 ```bash
-rpm -K check-mk-raw-2.4.0p4-el8-38.x86_64.rpm
-yum install check-mk-raw-2.4.0p4-el8-38.x86_64.rpm
+rpm -K check-mk-raw-2.4.0p6-el9-38.x86_64.rpm
+yum localinstall check-mk-raw-2.4.0p6-el9-38.x86_64.rpm
 ```
 
 6. Test Installation
