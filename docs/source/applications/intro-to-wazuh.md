@@ -72,4 +72,4 @@ Up to this point, this installation will allow you to explore the Wazuh dashboar
 - [Adding an Agent(Linux)](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html): Steps to deploy the Wazuh agent on Linux endpoints.
 - [Wazuh Architecture](https://documentation.wazuh.com/current/getting-started/architecture.html): A run down of how Wazuh works as a distributed system.
 - [Getting Started](https://documentation.wazuh.com/current/getting-started/index.html): Getting started with Wazuh.
-
+- [Cyber Made Simple by Wazuh](https://media.licdn.com/dms/document/media/v2/D4E1FAQFKwC6P1pZCRA/feedshare-document-pdf-analyzed/B4EZd7fX8EHIAY-/0/1750123513397?e=1752710400&v=beta&t=_9XUJ7RBEzcbB0gwqSBC5jc2AdE9BH0YFceZNJqYoiU): Overview of Wazuh from someone on LinkedIn.
