@@ -16,6 +16,7 @@
 10. [Debugging a Node](linklater)
 11. [Learn Python](../fundamentals/learn-python)
 12. [Setting Up KVM Virtual Machine](../applications/creating-virtual-machine)
+13. [Intro to Wazuh](../applications/intro-to-wazuh)
 12. [Using Salt](../applications/using-salt)
 13. [Using Engaging](linklater)
 14. [Using Screen and Tmux](../fundamentals/using-screen-and-tmux)

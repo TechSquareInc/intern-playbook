@@ -61,8 +61,6 @@ If  successful, you will see install version by running:
 omd version
 ```
 
-## Monitoring
-
 
 ## Resources
 - [Install Guide](https://docs.checkmk.com/latest/en/install_packages_redhat.html): Install options for RHEL/CentOS
