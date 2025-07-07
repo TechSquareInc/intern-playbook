@@ -52,6 +52,7 @@ Contents
 
    applications/using-thunderbird
    applications/creating-virtual-machine
+   applications/intro-to-wazuh
    applications/using-salt
    applications/configure-postfix
    applications/using-checkmk
