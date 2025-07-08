@@ -61,9 +61,25 @@ If  successful, you will see install version by running:
 omd version
 ```
 
+### Monitoring
+
+Monitoring with Checkmk can be described as a comprehensive, modular, and efficient way to keep track of the health and performance of IT systems. It involves setting up a centralized monitoring server to collect, visualize, and alert on system metrics and service statuses. It provides real-time insights, automated service discovery, and customizable alerts, which enables system administrators to detect issues before they become a more serious problem.
+
+Checkmk offers monitoring services for everything from servers, networks, applications, databases, cloud infrastructures and more. Learn more about Checkmk's various monitoring solutions by visting their [Monitoring Basics](https://checkmk.com/monitoring) page.
+
+#### Monitoring Tutorial
+
+**Objective**: Set up a monitoring environment using Checkmk Raw Edition to monitor a virtual machine.
+
+- Create or use a virtual machine and use Checkmk command line tools to add that machine as a host to Checkmk.
+- Use [Checkmk site creation docs](https://docs.checkmk.com/latest/en/omd_basics.html) to create a site, and add your host to the site.
+- Using [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html)  
+
 
 ## Resources
 - [Install Guide](https://docs.checkmk.com/latest/en/install_packages_redhat.html): Install options for RHEL/CentOS
 - [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html): Using chceckmk via the cli
 - [Basic Information on the Installation of Checkmk](https://docs.checkmk.com/latest/en/install_packages.html): Installation and use guide
 - [Checkmk Welcome Guide](https://docs.checkmk.com/latest/en/welcome.html): Welcome guide to using Checkmk
+- [Site Admistration with `omd`](https://docs.checkmk.com/latest/en/omd_basics.html): Explore Checkmk's site creation guide.
+- [Monitoring Basics](https://checkmk.com/monitoring): Explore Checkmk's monitoring basics guide.
