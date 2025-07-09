@@ -56,6 +56,7 @@ Contents
    applications/using-salt
    applications/configure-postfix
    applications/using-checkmk
+   applications/using-veracrypt
 
 .. toctree::
    :maxdepth: 1

@@ -45,5 +45,5 @@ Be sure to include a list of resources at the bottom of your document for easy a
 ### Contributing
 Be sure to read this github repository's [README](https://github.com/TechSquareInc/intern-playbook/blob/main/README.md) for instructions on setting up a development environment for contributing to the Intern Playbook. The playbook is written in a combination of **restructured text** and **markdown** formats. You'll find the only page written using restructured text is the index page (`index.rst`). To keep up with consistency, it is reccommended to use markdown for all other resource pages.
 
-**Note:** In the upper right hand corner of each resource page, next to the "Contents" hamburger menu, there is a "View this page" feature that shows the markdown version of each resource page. If you're unsure of the best way to emmulate the playbook's style, you can use this feature as a reference.
+> **Note:** In the upper right hand corner of each resource page, next to the "Contents" hamburger menu, there is a "View this page" feature that shows the markdown version of each resource page. If you're unsure of the best way to emmulate the playbook's style, you can use this feature as a reference.
 

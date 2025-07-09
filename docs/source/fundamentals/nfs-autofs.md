@@ -86,7 +86,8 @@ sudo mount -a
 
 - Now the `/home` directory on the client is actually coming from the server via NFS.
 
-**Note:** You must create the `tsquare` user on the client with the same UID/GID as on the server.
+> **Note:** You must create the `tsquare` user on the client with the same UID/GID as on the server.
+
 ```bash
 sudo useradd -u [UID] -g [GID] -d /home/tsquare -s /bin/bash tsquare
 ```

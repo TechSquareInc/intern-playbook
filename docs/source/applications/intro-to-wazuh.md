@@ -6,7 +6,7 @@
 
 ## What is Wazuh?
 
-Wazuh is an open-source security monitoring platform designed for securing data assets across diverse environments including on-site, virtualized, containerized, and cloud-based systems. It is commonly used in security operation centers or high performance computing environments to gain visibility into system activity and detect suspicous behavior. Wazuh has a variety of differnent cababilities including:
+Wazuh is an open-source security monitoring platform designed for securing data assets across diverse environments including on-site, virtualized, containerized, and cloud-based systems. It is commonly used in security operation centers or high performance computing environments to gain visibility into system activity and detect suspicous behavior. Wazuh has a variety of different cababilities including:
 - Intrusion detection (or HIDS - Host Intrusion Detection Software)
 - Log data analysis and correlation
 - File integrity monitoring
@@ -58,7 +58,7 @@ INFO: Installation finished.
 
 At this point, you should be able to open your browser and log into the Wazuh dashboard to begin exploring the platform.
 
-**Note:** When accessing the dashboard for the first time, the browser shows a warning message stating the certficate is not trusted by a trusted authority. This is expected, and you can choose to accept the certficate anyway, or alternatively configure the system to use a certificate from a trusted authroity.
+> **Note:** When accessing the dashboard for the first time, the browser shows a warning message stating the certficate is not trusted by a trusted authority. This is expected, and you can choose to accept the certficate anyway, or alternatively configure the system to use a certificate from a trusted authroity.
 
 ### Adding an Agent
 Up to this point, this installation will allow you to explore the Wazuh dashboard, and become more familair with its features. If you are curious about adding additional endpoints to monitor, follow the steps laid out in the Wazuh [adding an agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html) documentation.
