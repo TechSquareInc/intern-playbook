@@ -5,7 +5,7 @@
 ---
 
 ## What is Checkmk?
-[Checkmk](https://docs.checkmk.com/latest/en/welcome.html) is an open-source (and enterprise) IT monitoring system that helps monitor servers, applications, network devices, containers, cloud infrastructure, and more. It is also known for auto-discovery of services, efficient monitoring engine, custome plugins and dashboards, and email/SMS/Slack alerts.
+[Checkmk](https://docs.checkmk.com/latest/en/welcome.html) is an open-source (and enterprise) IT monitoring system that helps monitor servers, applications, network devices, containers, cloud infrastructure, and more. It is also known for auto-discovery of services, efficient monitoring engine, custom plugins and dashboards, and email/SMS/Slack alerts.
 
 ### Installation
 1. Checkmk requires a number of software packages from your Linux distribution. To make sure all the necessary packages are installed, you'll need a correct configuration of the software sources.
@@ -21,12 +21,13 @@ sudo dnf config-manager --set-enabled crb
 ```
 
 3. Setup SELinux and Firewall:
+
 As a first step, you will need to allow your web server to access the network interfaces.
 ```bash
 setsebool -P httpd_can_network_connect 1
 ```
 
-Secondly, release the web server and activate this chagnge.
+Secondly, release the web server and activate this change.
 ```bash
 firewall-cmd --zone=public --add-service=http --permanent
 firewall-cmd --reload
@@ -36,9 +37,10 @@ firewall-cmd --reload
 ```bash
 wget https://download.checkmk.com/checkmk/2.4.0p6/check-mk-raw-2.4.0p6-el9-38.x86_64.rpm
 ```
-**Note:** This step will likely take a while, so be prepared to wait for its installation to finish. 
+> **Note:** This step will likely take a while, so be prepared to wait for its installation to finish.
 
-5. Signed-package Installation
+5. Signed-package Installation:
+
 All Checkmk packages are signed using GnuPG. So that these signed packages can be installed in their ususal way, you will need to import the public key so that the signature is trusted.
 ```bash
 wget https://download.checkmk.com/checkmk/Check_MK-pubkey.gpg
@@ -49,13 +51,14 @@ Next, import the key to the list of trusted signatures:
 rpm --import Check_MK-pubkey.gpg
 ```
 
-Once you the key has been imported, you can verify the package and install it:
+Once the key has been imported, you can verify the package and install it:
 ```bash
 rpm -K check-mk-raw-2.4.0p6-el9-38.x86_64.rpm
 yum localinstall check-mk-raw-2.4.0p6-el9-38.x86_64.rpm
 ```
 
-6. Test Installation
+6. Test Installation:
+
 If  successful, you will see install version by running:
 ```bash
 omd version
@@ -71,9 +74,11 @@ Checkmk offers monitoring services for everything from servers, networks, applic
 
 **Objective**: Set up a monitoring environment using Checkmk Raw Edition to monitor a virtual machine.
 
-- Create or use a virtual machine and use Checkmk command line tools to add that machine as a host to Checkmk.
+- Create or use a already configured virtual machine, and using Checkmk's documentation, add that machine as a host to Checkmk.
 - Use [Checkmk site creation docs](https://docs.checkmk.com/latest/en/omd_basics.html) to create a site, and add your host to the site.
-- Using [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html)  
+- Use [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html) to explore monitoring configurations.
+
+For more explicit help on this, check out Checkmk's official [Installing Checkmk and Monitoring your First Host Tutorial](https://www.youtube.com/watch?v=opO-SOgOJ1I).
 
 
 ## Resources
@@ -83,3 +88,4 @@ Checkmk offers monitoring services for everything from servers, networks, applic
 - [Checkmk Welcome Guide](https://docs.checkmk.com/latest/en/welcome.html): Welcome guide to using Checkmk
 - [Site Admistration with `omd`](https://docs.checkmk.com/latest/en/omd_basics.html): Explore Checkmk's site creation guide.
 - [Monitoring Basics](https://checkmk.com/monitoring): Explore Checkmk's monitoring basics guide.
+- [Monitoring Linux](https://docs.checkmk.com/latest/en/agent_linux.html): Explore monitoring a Linux agent.
