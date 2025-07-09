@@ -1,4 +1,4 @@
-# Running Python on the Cluster
+# Running Python on the Cluster ✨
 
 *Python is a high-level, interrpreted, general-purpose programming language.*
 

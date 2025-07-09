@@ -1,4 +1,4 @@
-# Your TechSquare Email
+# Your TechSquare Email 📧
 
 *yourname@techsquare.com*
 

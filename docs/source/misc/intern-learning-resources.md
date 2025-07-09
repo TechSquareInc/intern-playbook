@@ -1,4 +1,4 @@
-# Intern Learning Resources
+# Intern Learning Resources 📚
 
 *A collection of links to help with additional learning.*
 

@@ -1,4 +1,4 @@
-# Getting on Slack
+# Getting on Slack 📟 
 
 *Slack is a real-time messaging and collaboration platform used by teams to communicate effectively.*
 

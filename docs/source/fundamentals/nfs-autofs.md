@@ -1,4 +1,4 @@
-# Setting Up NFS/AutoFS
+# Setting Up NFS/AutoFS 🗃️
 
 *The Network File System (NFS) is a mechanism for storing files on a network. It is a distributed file system that allows users to access files and directories locaated on remote computers and treat those files and directories as if they were local. AutoFS is a service that automatically mounts (and unmounts) filesystems when accessed, making NFS storage more efficient.*
 

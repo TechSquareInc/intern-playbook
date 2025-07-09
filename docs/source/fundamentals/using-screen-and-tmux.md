@@ -1,4 +1,4 @@
-# Using Screen and Tmux
+# Using Screen and Tmux 📺
 
 *Brief introduction to Linux multiplexers like `screen` and `tmux`.*
 

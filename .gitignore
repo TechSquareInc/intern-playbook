@@ -4,3 +4,6 @@
 # Sphinx build output
 docs/_build/
 docs/build/
+
+# GitAction
+.github/workflows/*
