@@ -86,6 +86,7 @@ git clone https://github.com/username/project.git
 
 ## .gitignore File
 Use a `.gitignore` file to exclude files or directories from being tracked by Git.
+
 **Example:**
 ```bash
 *.log

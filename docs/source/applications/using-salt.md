@@ -8,12 +8,13 @@
 **Salt,** also called **SaltStack,** is an open-source configuration managment and automation tool. It allows system administrators to:
 - Define system states (e.g. install packages, run services, configure users, etc.)
 - Apply those configurations across multiple machines consistently
-- Automate routine infrastructure tasks like updates, configuration chagnes, or user provisioning
+- Automate routine infrastructure tasks like updates, configuration changes, or user provisioning
+
 Salt follows a master-minion architecture, where:
 - The Salt master sends commands and configurations
 - The Salt minion executes those commands
 
-A deeper Introduction to Salt can be found [here](https://docs.saltproject.io/en/3006/topics/index.html).
+A deeper introduction to **Salt** can be found [here](https://docs.saltproject.io/en/3006/topics/index.html).
 
 ## Installing Salt
 The Salt Project documentation offers a [quick installation guide](https://docs.saltproject.io/salt/install-guide/en/latest/index.html) for Linux based operating systems. If you are running RHEL-like systems, follow the [Linux (RPM) Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/linux-rpm.html). If you are running Debian-like systems, follow the [Linux (DEB) Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/linux-deb.html). Each guide includes post-installation steps for configuring the Salt master and minions, starting the master and minion services, accepting the minion keys, and verifying your Salt installation. 

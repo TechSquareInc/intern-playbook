@@ -12,4 +12,4 @@
 6. If you are working with a TechSquare employee on a client project (changing cmos batteries, decommissioning old nodes, etc.) be sure to specify from the drop down menu what client you are recording hours for, for example **ORCD/INTERN/NAME**.
 7. When you have finished recording your hours for the day, press the green *Release* button.
 
-**Note:** As a general best practice, log your hours as you work on tasks throughout the day. 
+> **Note:** As a general best practice, log your hours as you work on tasks throughout the day.
