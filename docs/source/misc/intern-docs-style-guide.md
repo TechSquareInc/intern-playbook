@@ -1,4 +1,4 @@
-# Intern Documentation Style Guide
+# Intern Documentation Style Guide 🎨
 
 *Formatting suggestion for contributions to the Intern Playbook.*
 

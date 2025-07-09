@@ -1,4 +1,4 @@
-# Using Checkmk
+# Using Checkmk ⚠️
 
 *Checkmk is an open source software designed for monitoring IT systems such as containers, servers, and databases.*
 

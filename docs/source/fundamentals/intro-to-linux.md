@@ -1,4 +1,5 @@
-# Intro to Linux
+# Intro to Linux 🐧
+
 *Those who do not understand Linux are codemn to reinvent it, poorly.*
 
 ---
