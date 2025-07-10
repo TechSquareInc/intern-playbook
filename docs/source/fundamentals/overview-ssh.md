@@ -32,7 +32,7 @@ SSH supports two main types of authentication:
 	- The client generates a key pair (private & public).
 	- The public key is placed on the server (`~/.ssh/authorized_keys`)
 	- During connection, the server challenges the client with a random encrypted message using the public key from `authorized keys`(previously provided to the server by the client) and the client proves ownership becasue only the private key can decrypt that challenge message. The client decrypts it locally and sends back the result (usually as a signature). The server then verfies the response matches what it expects, and if it does, access is granted.
-	- **Note:** this is a more secure method than passwords as it allows for features like passpharse-protected keys or hardware tokens like YubiKeys. Unlike a password (although encrypted) the private key never leaves the client machine.
+	- > **Note:** this is a more secure method than passwords as it allows for features like passpharse-protected keys or hardware tokens like YubiKeys. Unlike a password (although encrypted) the private key never leaves the client machine.
 
 ## Encryption
 

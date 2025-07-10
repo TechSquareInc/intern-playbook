@@ -46,6 +46,6 @@ As previously mentioned, Salt is a powerful open-source tool for automating syst
 - [Salt Overview](https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html): Deep dive into Salt's architecture
 - [Salt Grains](https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html): Deep explanation of Salt grains
 - [Salt States](https://docs.saltproject.io/salt/user-guide/en/latest/topics/states.html): Deep explanation of Salt states
-- [Salt Pillar](https://docs.saltproject.io/salt/user-guide/en/latest/topics/pillar.html): Deep explnation of Salt pillar data
+- [Salt Pillar](https://docs.saltproject.io/salt/user-guide/en/latest/topics/pillar.html): Deep explanation of Salt pillar data
 - [Salt Formulas](https://docs.saltproject.io/en/3006/topics/development/conventions/formulas.html): Deep explanation of Salt formulas
 - [How to Create Your First Salt Formula](https://www.digitalocean.com/community/tutorials/how-to-create-your-first-salt-formula): A tutorial to create your first Salt formula

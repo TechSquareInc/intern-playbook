@@ -15,7 +15,7 @@
 - [HackerRank Python](https://www.hackerrank.com/domains/python): Practice Python by solving small challenges
 
 ## Vim
-- [Learn Vim in Y Minutes](https://learnxinyminutes.com/vim/): Refernce guide for Vim commands
+- [Learn Vim in Y Minutes](https://learnxinyminutes.com/vim/): Reference guide for Vim commands
 - [VimGenius](http://www.vimgenius.com/): Lock in Vim muscle memory
 - [Vimium](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/): Vim key bindings as a browser extension - great way to practice
 
