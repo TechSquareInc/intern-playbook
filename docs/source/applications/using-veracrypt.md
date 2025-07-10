@@ -1,4 +1,4 @@
-# Using Veracrypt 💾
+# 💾 Using Veracrypt
 
 *Veracrypt is a free and open-source disk encryption software that allows users to encrypt entire storage devices or create encrypted containers to protect senstive data.*
 

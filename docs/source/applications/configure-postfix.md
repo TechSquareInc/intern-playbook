@@ -1,4 +1,4 @@
-# Configure Postfix 📨
+# 📨 Configure Postfix
 
 *Confgiure Postfix using Gmail as a relay.*
 

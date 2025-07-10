@@ -1,4 +1,4 @@
-# Getting Started with Git 🔁
+# 🔁 Getting Started with Git
 
 *Git is a version control system that helps you track changes in code, collaborate with others, and manage different versions of a project. This guide introduces the core concepts and basic commands to get you started with Git.*
 

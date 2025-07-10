@@ -1,4 +1,4 @@
-# Learn Bash Scripting 📜
+# 📜 Learn Bash Scripting
 
 *Bash is a Unix shell and command language*
 

@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Intern Playbook'
-copyright = '2025, Chloe Gerhardson'
+copyright = '2025, TechSquare'
 author = 'Chloe Gerhardson'
 release = '0.1'
 
