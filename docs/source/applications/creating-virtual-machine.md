@@ -1,4 +1,4 @@
-# Setting up a KVM Virtual Machine 🖥️
+# 🖥️ Setting up a KVM Virtual Machine
 
 *This guide walks you through installing KVM and Libvirt tools on your Linux desktop, and creating a virtual machine.* 
 

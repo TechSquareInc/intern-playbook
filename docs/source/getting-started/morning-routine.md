@@ -1,4 +1,4 @@
-# Morning Routine 🌞
+# 🌞 Morning Routine
 
 *During your first couple of days, you'll start with putting together your system, and getting necessary applications, like email and Slack, set up.*
  

@@ -1,4 +1,4 @@
-# Intro to Wazuh 🪵 
+# 🪵  Intro to Wazuh
 
 *Wazuh is a free and open-source security platform primarily used for threat detection and incident response.*
 

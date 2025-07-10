@@ -1,4 +1,4 @@
-# Logging Hours 🕰️ 
+# 🕰️ Logging Hours
 
 *Quick instructional guide for using the hours-beta.techsquare application.*
 

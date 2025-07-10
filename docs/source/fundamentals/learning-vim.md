@@ -1,4 +1,4 @@
-# Learning Vi/Vim 🤖
+# 🤖 Learning Vi/Vim
 
 *Vi (and its improved version Vim) is a modal text editor used in many Unix-based systems. This guide introduces the basic concepts and commands you need to start using `vi` or `vim`*.
 
