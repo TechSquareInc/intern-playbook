@@ -22,7 +22,7 @@ Formatting to a specific style will help with consistency, readability, and long
 - Be sure to split the heading from the rest of the document by using markdown's `---` horizontal rule.
 
 ### Lists
-When explaing something in sequence, such as a process of installation, use ordered lists.
+When explaining something in sequence, such as a process of installation, use ordered lists.
 ```markdown
 1. Install tool
 2. Edit config file
@@ -47,3 +47,7 @@ Be sure to read this github repository's [README](https://github.com/TechSquareI
 
 > **Note:** In the upper right hand corner of each resource page, next to the "Contents" hamburger menu, there is a "View this page" feature that shows the markdown version of each resource page. If you're unsure of the best way to emmulate the playbook's style, you can use this feature as a reference.
 
+## Styling Resources:
+- [Emojipedia](https://emojipedia.org/): Copy pasta emjois
+- [Sphinx Theme Gallary](https://sphinx-themes.org/): A gallary of various sphinx themes
+- [Learn Markdown](../fundamentals/learning-markdown): Internal markdown reference

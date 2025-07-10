@@ -1,6 +1,6 @@
 # 🗃️ Setting Up NFS/AutoFS
 
-*The Network File System (NFS) is a mechanism for storing files on a network. It is a distributed file system that allows users to access files and directories locaated on remote computers and treat those files and directories as if they were local. AutoFS is a service that automatically mounts (and unmounts) filesystems when accessed, making NFS storage more efficient.*
+*The Network File System (NFS) is a mechanism for storing files on a network. It is a distributed file system that allows users to access files and directories located on remote computers and treat those files and directories as if they were local. AutoFS is a service that automatically mounts (and unmounts) filesystems when accessed, making NFS storage more efficient.*
 
 ---
 
@@ -126,12 +126,12 @@ sudo systemctl restart autofs
 ```bash
 /home	desktop_IP(rw,sync,no_subtree_check,no_root_squash)
 ```
-- `no_root_squash` lets the remote root user act as root on the sahre -- use with caution!
+- `no_root_squash` lets the remote root user act as root on the share -- use with caution!
 
 2. **Mount the Share and Write as Root**
 - On the desktop:
 ```bash
-sudo mount serder:/home /mnt/home
+sudo mount server:/home /mnt/home
 sudo touch /mnt/home/root/hello.txt
 ```
 

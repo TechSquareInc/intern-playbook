@@ -34,7 +34,8 @@
 ![](https://user-images.githubusercontent.com/39737662/42830310-0eb58f34-89b9-11e8-9a10-8f1828143b14.png)
 
 8. After creating the container, in order to access it, you must first mount it. To do this use **veracrypt /path/to/container /path/to/mount/point**. You can mount the container anywhere, it does not need to be at the original location it was made at. To unmount containers simply use **veracrypt -d**
-Note: Containers will automatically unmount at shutdown but will remain mounted if the user only logs off.
+
+> **Note:** Containers will automatically unmount at shutdown but will remain mounted if the user only logs off.
 
 ![](https://user-images.githubusercontent.com/39737662/42830313-1135263e-89b9-11e8-840b-8848529ee42c.png)
 
