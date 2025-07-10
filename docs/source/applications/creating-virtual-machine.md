@@ -19,7 +19,7 @@ egrep -c '(vmx|svm)' /proc/cpuinfo
 sudo yum install virt-manager libvirt libvirt-daemon-kvm qemu-kvm
 ```
 - `virt-manager` is a desktop user interface for managing virtual machines through `libvirt`
-- `libvirt` is an open-source API, daemon, and managment tool for managing platform virtualization across diferent hypervisors like KVMs
+- `libvirt` is an open-source API, daemon, and managment tool for managing platform virtualization across different hypervisors like KVMs
 - `libvirt-daemon-kvm` refers to the `libvirtd` daemon, which is part of the libvirt virtualizatoin managment system, and is specifcally configured to manage KVMs (Kernel-based Virtual Machine).
 - `qemu-kvm` is a package that integrates QEMU (Quick Emulator) and KVM to enable efficient virtualization on Linux systems.
 
@@ -55,6 +55,6 @@ To allow SSH access, configure virtual networking:
 
 ## Resources
 - [How to Install KVM and Libvirt](https://www.howtoforge.com/how-to-install-kvm-and-libvirt-on-centos-6.2-with-bridged-networking): Step by step in depth installation guide for KVM and Libvirt tools
-- [How to Create Virtual Machines in Linux Using KVM](https://www.tecmint.com/install-and-configure-kvm-in-linux/): Step by step in depth installation guide for installing and configure virt-manager application and machines
+- [How to Create Virtual Machines in Linux Using KVM](https://www.tecmint.com/install-and-configure-kvm-in-linux/): Step by step in depth installation guide for installing and configuring virt-manager application and machines
 - [Installing KVM Ubuntu](https://linuxhint.com/install_kvm_ubuntu/): Guide for installing KVM tools and using KVM with virt-manager with Ubuntu
 - [Libvirt Virtual Networking](https://wiki.libvirt.org/VirtualNetworking.html): Create a bridged interface so your VM can access the network and internet
