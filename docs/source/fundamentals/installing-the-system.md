@@ -22,3 +22,7 @@
 - [EPEL](https://fedoraproject.org/wiki/EPEL/FAQ#What_is_EPEL.3F) or Extra Packages for Enterprise Linux. These packages are not part of the main distributions but are often used to enhance or extend the functionality of these systems. Generally speaking, you should run `sudo yum install epel-release` to install.
 - [KeePassXC](https://keepassxc.org/download/#linux) a free and open source password manager that allows users to securely store and manage passwords in an encrypted database. Follow this [quick tutorial](https://www.youtube.com/watch?v=NFFSL4YbsOc&t=132s) for installation help.
 - [Xfce](https://en.wikipedia.org/wiki/Xfce) a lightweight, modular, customizable, and fast desktop environment for Unix-like operating systems, particularly Linux. It's know for its speed, low resource usage, and stability, making it a good choice for older or less powerful computers.
+
+### Linux Boot Process
+
+![linux boot process](https://media.licdn.com/dms/image/v2/D5622AQEbxeHiI27Q-g/feedshare-shrink_800/B56ZfPDY3xHoAk-/0/1751525463324?e=1755129600&v=beta&t=XLqwKaY4Weadjf5gp1W8t3QZTDS3H6iZX1d--ccFw3c)
