@@ -114,8 +114,8 @@ git revert <commit-id>
 ```
 
 ## Resources
-- [GitHub Learning Lab](https://github.com/apps/github-learning-lab) bot lead series of practical projects to level up your GitHub skills
-- [Git Branching](https://learngitbranching.js.org/?locale=en_US) a visual and interactive way to learn Git on the web
-- [Git Book (free)](https://git-scm.com/book/en/v2) a free complete and indepth Git resource
-- [Git Cheatsheet (GitHub)](https://education.github.com/git-cheat-sheet-education.pdf) features the most important and commonly used Git commands for easy reference.
-- [Git-it](https://github.com/jlord/git-it-electron) a desktop app that teaches you how to use Git and GitHub on the command line.
+- [GitHub Learning Lab](https://github.com/apps/github-learning-lab): bot lead series of practical projects to level up your GitHub skills
+- [Git Branching](https://learngitbranching.js.org/?locale=en_US): a visual and interactive way to learn Git on the web
+- [Git Book (free)](https://git-scm.com/book/en/v2): a free complete and indepth Git resource
+- [Git Cheatsheet (GitHub)](https://education.github.com/git-cheat-sheet-education.pdf): features the most important and commonly used Git commands for easy reference.
+- [Git-it](https://github.com/jlord/git-it-electron): a desktop app that teaches you how to use Git and GitHub on the command line.
