@@ -32,6 +32,17 @@ As previously mentioned, Salt is a powerful open-source tool for automating syst
 | Highstate | The process of applying all states defined in the top file to the appropriate minions.|
 | Formulas  | Reusable Salt state modules that configure common components (like users or services).|
 
+### Common Salt Commands
+|**Command**|**Description**|
+|:------------------:|:---------------|
+|`salt '*' test.ping`|Ping all minions|
+|`salt '*' grains.item host`|Get minion hostname|
+|`salt '*' grains.item`|Get full grain info|
+|`salt '*' grains.item os osrelease`|Get OS details|
+|`salt '*' cmd.run 'uptime'`|Run a shell command on minions|
+|`salt '*' state.apply myfile`|Apply a file to a state|
+|`salt '*' state.apply`|Run highstate|
+
 ## Using Vagrant as a Development Environment (optional)
 [Vagrant](https://developer.hashicorp.com/vagrant) is a tool for managing virtual machine environments in a reproducible way using simple configuration files called `Vagrantfile`. Vagrant makes it easy to rebuild development environments, which is great for testing Salt states before applying them in production. Vagrant is also compatible with KVM environments. Learn more about using Vagrant with your KVM / Libvirt environment [here](https://github.com/vagrant-libvirt/vagrant-libvirt). 
 
