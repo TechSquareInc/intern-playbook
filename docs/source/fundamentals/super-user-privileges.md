@@ -1,6 +1,6 @@
 # ⭐ Superuser Privileges
 
-*The "root" user is the superuser account in Linux systems. Users can temporarily gain root privileges using the `sudo` command, which requires authenticaion from the users account. The user will only have `sudo` privileges if the account is listed in the sudoers file.*
+*The "root" user is the superuser account in Linux systems. Users can temporarily gain root privileges using the `sudo` command, which requires authenticaion from the user's account. The user will only have `sudo` privileges if the account is listed in the sudoers file.*
 
 ---
 
