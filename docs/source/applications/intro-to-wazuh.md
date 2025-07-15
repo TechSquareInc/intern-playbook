@@ -58,18 +58,18 @@ INFO: Installation finished.
 
 At this point, you should be able to open your browser and log into the Wazuh dashboard to begin exploring the platform.
 
-> **Note:** When accessing the dashboard for the first time, the browser shows a warning message stating the certficate is not trusted by a trusted authority. This is expected, and you can choose to accept the certficate anyway, or alternatively configure the system to use a certificate from a trusted authroity.
+> **Note:** When accessing the dashboard for the first time, the browser shows a warning message stating the certficate is not trusted by a trusted authority. This is expected, and you can choose to accept the certificate anyway, or alternatively configure the system to use a certificate from a trusted authority.
 
 ### Adding an Agent
 Up to this point, this installation will allow you to explore the Wazuh dashboard, and become more familair with its features. If you are curious about adding additional endpoints to monitor, follow the steps laid out in the Wazuh [adding an agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html) documentation.
 
 ## Wazuh Tutorials
-- [Crash Course](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html): An in-depth and complete guide to using wazuh, configuring endpoints, and exploring its features. This tutorial also walks through deploying Wazuh with docker. 
-- [Creating Dashboards](https://www.youtube.com/watch?v=QrcAhd5P7xw): Wazuh offers the ability to create different dashboard that highlight certain or specific bouts of data. This tutorial walks you through how to do that.
+- [Crash Course](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html): An in-depth and complete guide to using Wazuh, configuring endpoints, and exploring its features. This tutorial also walks through deploying Wazuh with docker. 
+- [Creating Dashboards](https://www.youtube.com/watch?v=QrcAhd5P7xw): Wazuh offers the ability to create different dashboards that highlight certain or specific pieces of log data. This tutorial walks you through how to do that.
 
 ## Resources
 - [Quickstart](https://documentation.wazuh.com/current/quickstart.html): Steps to get starting with Wazuh quick isntallation guide. 
 - [Adding an Agent(Linux)](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html): Steps to deploy the Wazuh agent on Linux endpoints.
 - [Wazuh Architecture](https://documentation.wazuh.com/current/getting-started/architecture.html): A run down of how Wazuh works as a distributed system.
 - [Getting Started](https://documentation.wazuh.com/current/getting-started/index.html): Getting started with Wazuh.
-- [Cyber Made Simple by Wazuh](https://media.licdn.com/dms/document/media/v2/D4E1FAQFKwC6P1pZCRA/feedshare-document-pdf-analyzed/B4EZd7fX8EHIAY-/0/1750123513397?e=1752710400&v=beta&t=_9XUJ7RBEzcbB0gwqSBC5jc2AdE9BH0YFceZNJqYoiU): Overview of Wazuh from someone on LinkedIn.
+- [Overview of Wazuh](https://wazuh.com/platform/overview/): Overview of Wazuh with feature descriptions.
