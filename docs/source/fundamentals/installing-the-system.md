@@ -25,4 +25,19 @@
 
 ### Linux Boot Process
 
+The [Linux boot process](https://en.wikipedia.org/wiki/Booting_process_of_Linux) is a series of steps a Linux system follows to initialize hardware and start the operating system after a computer is powered on or restarted. The boot process happens in six key stages:
+
+1. **BIOS/UEFI:** Initializes the hardware and looks for a boot device.
+2. **Bootloader:** Loads and starts the Linux kernel.
+3. **Kernel:** Initializes device drivers and mounts the root filesystem.
+4. **Initramfs:** Temporary filesystem loads into memory which prepares the real root filesystem to be mounted.
+5. **Init System:** System initialization which starts the essential system services such as for networking, loggingm or user management.
+6. **User Login:** Once `init` process is complete, the system presents a login screen, allowing users to log in and access the system.
+
 ![linux boot process](https://media.licdn.com/dms/image/v2/D5622AQEbxeHiI27Q-g/feedshare-shrink_800/B56ZfPDY3xHoAk-/0/1751525463324?e=1755129600&v=beta&t=XLqwKaY4Weadjf5gp1W8t3QZTDS3H6iZX1d--ccFw3c)
+
+### Resources
+- [Linux Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A list of all of the different linux distributions.
+- [Linux Distribution](https://en.wikipedia.org/wiki/Linux_distribution): In-depth exploration of what a Linux distribution is.
+- [Linux Boot Process](https://www.youtube.com/watch?v=XpFsMB6FoOs): High level overview of the Linux boot process.
+- [Booting Process of Linux](https://en.wikipedia.org/wiki/Booting_process_of_Linux): In-depth exploration of the Linux boot process.
