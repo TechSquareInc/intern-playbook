@@ -31,20 +31,22 @@ SSH supports two main types of authentication:
 2. **Public key authentication** (recommended)
 	- The client generates a key pair (private & public).
 	- The public key is placed on the server (`~/.ssh/authorized_keys`)
-	- During connection, the server challenges the client with a random encrypted message using the public key from `authorized keys`(previously provided to the server by the client) and the client proves ownership becasue only the private key can decrypt that challenge message. The client decrypts it locally and sends back the result (usually as a signature). The server then verfies the response matches what it expects, and if it does, access is granted.
+	- During connection, the server challenges the client with a random encrypted message using the public key from `authorized keys` (previously provided to the server by the client) and the client proves ownership becasue only the private key can decrypt that challenge message. The client decrypts it locally and sends back the result (usually as a signature). The server then verfies the response matches what it expects, and if it does, access is granted.
 	- > **Note:** this is a more secure method than passwords as it allows for features like passpharse-protected keys or hardware tokens like YubiKeys. Unlike a password (although encrypted) the private key never leaves the client machine.
 
 ## Encryption
 
-SSH uses strong encryption algorithms as well as hashing to secure communication. Common algorithms include:
-- **Symmetric encryption**, often call shared key encryption. Symmetric keys are used to encrypt the entire communication during a given SSH session. Both client and host create the secret key based on an agreed method. The key that is generated never leaves the scope  of the client and host. Additionally, the key is never transmitted between the client and the host machine. The two machines independently calculate the secret key. This secret token is specific to each session, and it is generated prior to cleitn authentication. Once the key is generated, all packets that move between the two machines are encrypted by the private key.
+SSH uses strong [encryption](https://www.youtube.com/watch?v=xHAMEF7-inQ) algorithms as well as hashing to secure communication. Common algorithms include:
+- **Symmetric encryption**, often call shared key encryption. Symmetric keys are used to encrypt the entire communication during a given SSH session. Both client and host create the secret key based on an agreed method. The key that is generated never leaves the scope  of the client and host. Additionally, the key is never transmitted between the client and the host machine. The two machines independently calculate the secret key. This secret token is specific to each session, and it is generated prior to client authentication. Once the key is generated, all packets that move between the two machines are encrypted by the private key.
 - **Asymmetric encryption** uses two seperate keys for encryption and decryption. These two keys are called *public* and *private* keys. Together they are called a *public-private key pair*. A public key can only be decrypted by the recipient who possesses the specific private key, and vice versa. To authenticate, the server sends a message that is encrypted using the clients public key, and that message can only be decrypted by the clients private key. This prossess happens completely automically and is not used to encrypt the entire SSH session.
 
 ## Hashing
 
-Unlike the previous two forms of encryption, hashing is never meant to be decrypted. Hashing takes an input (like a password) and runs it through a mathematical function to produce a fixed-length string of characters called a hash. Becasue this function happens one-way, you cannot reverse the hash to get an original input. This makes it secure for passwords and data verification.
+Unlike the previous two forms of encryption, hashing is never meant to be decrypted. [Hashing](https://www.youtube.com/watch?v=EcGmQjl6XEo) takes an input (like a password) and runs it through a mathematical function to produce a fixed-length string of characters called a hash. Becasue this function happens one-way, you cannot reverse the hash to get an original input. This makes it secure for passwords and data verification.
 
 ## Resources
+- [Public Key Infrastructure](https://www.youtube.com/watch?v=xHAMEF7-inQ): Professor Messer's explanation of symmetric encryption, asymmetric encryption, and key pairs.
+- [Hashing and Digital Signature](https://www.youtube.com/watch?v=EcGmQjl6XEo): Professor Messer's explanation of hashing and digitial signatures.
 - [Hashing vs Encryption](https://comodosslstore.com/resources/hashing-vs-encryption-simplifying-the-differences/): A breakdown of hashing and encryption methods.
 - [SSH Port Forwarding Tutorial](https://www.digitalocean.com/community/tutorials/ssh-port-forwarding): A deep dive into SSH Portforwarding.
 - [Open SSH Man Pages](https://www.openssh.com/manual.html): Man pages for OpenSSH.

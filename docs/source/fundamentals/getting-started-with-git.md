@@ -23,25 +23,29 @@ sudo apt install git
 ## Basic Git Workflow
 
 1. **Initialize a repository**
-- turns a directory into a Git repository
+- Turns a directory into a Git repository
 ```bash
 git init
 ```
 2. **Check repository status**
+- Allows you to monitor changes made since your last commit
 ```bash
 git status
 ```
 3. **Add files to a staging area**
+- Add changes to a your staging area that are ready to be included in your next commit
 ```bash
 git add filename
 git add . # Adds all files in the directory
 git add -p # Sorts through changes to add one by one
 ```
 4. **Commit changes**
+- Create a permanent snapshot of your changes in your local repository
 ```bash
 git commit -m "Describe what you changed or added"
 ```
 5. **View commit history**
+- Shows a list of commits made in reverse chronological order
 ```bash
 git log
 ```
@@ -57,7 +61,7 @@ git remote add origin https://github.com/yourusername/your-repo.git
 ```bash
 git push -u origin main
 ```
-- The -u (upstream) links your local branch to a remote repository.
+- The `-u` (upstream) links your local branch to a remote repository.
 
 ## Branching and Merging
 

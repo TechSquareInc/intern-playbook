@@ -21,15 +21,15 @@ To generate a new SSH key pair:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 - `-t ed25519` specifies the key type.
-- -C adds a label to your key, typically your email address.
+- `-C` adds a label to your key, typically your email address.
 3. You'll be prompted to choose where to save the key. The default location is generally `/home/user/.ssh/id_ed25519`
 4. You'll then be asked to enter a passphrase. This step is optional, but reccomended. Adding a passphrase provides extra security if your private key is ever stolen.
 
 ## View Your Public Key
 
 After generation, your keys will be stored in:
-- Private key: ~/.ssh/id_ed25519
-- Public key: ~/.ssh/id_ed25519.pub
+- Private key: `~/.ssh/id_ed25519`
+- Public key: `~/.ssh/id_ed25519.pub`
 
 To view and copy your public key, use:
 ```
