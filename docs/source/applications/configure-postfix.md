@@ -13,6 +13,7 @@ Postfix is designed with security in mind, though its installation can be tricky
 There have been some slight changes to how to configure Gmail as the relay recently because Google has depricated its "insecure apps" option. In order to allow sign-in from Gmail using Postfix, you will need to enable "less secure apps" in Google's security settings, and create an App Password. Before this, you will need to make sure 2FA is enabled.
 
 **What's an App Password?**
+
 **App Passwords** are a way to allow your application to "Sign in with Google." When Google does not allow the option to "Sign in with Google" you can either:
 - switch to a more secure app or device
 - use app passwords
@@ -20,7 +21,7 @@ There have been some slight changes to how to configure Gmail as the relay recen
 > **Important:**
 > To create an app password, you need 2-Step Verification on your Google Account. To enable 2FA, go to your Google accounts [security settings](https://myaccount.google.com/security) and turn on "2-Step Verification".
 
-- Once 2FA is configure, on the same security settings page you will see the "Less Secure Apps" feature is disabled by defult. Toggle this setting "on".
+- Once 2FA is configure, on the same security settings page you will see the "Less Secure Apps" feature is disabled by default. Toggle this setting "on".
 
 - Now that 2FA is enabled and "less secure apps" is turned on, you can create an **app password** for Postfix. While you are still signed in to your Google account, follow this link to [create and manage your app passwords](https://myaccount.google.com/apppasswords).
 
@@ -111,14 +112,14 @@ systemctl restart postfix
 echo "mailtest" | mail -s "mailtest" <user>@<domain.com>
 ```
 
-8. If successful, you will recieve an email in your inbox from your techsquare domain.
+8. If successful, you will recieve an email in your inbox from your gmail domain.
 
 ## Resources
 - [Postfix Official Documentation](https://www.postfix.org/documentation.html): Everything Postfix explained.
 - [Sign-in with App Passwords](https://support.google.com/mail/answer/185833?hl=en): A google help center guide to app passwords.
 - [A Comprehensive Guide to Connect Postfix to Gmail](https://www.systoolsgroup.com/add/postfix-to-gmail-account/?srsltid=AfmBOopprwRvW4esdO2xmgbWs9XG6gIvAkKxQFCEouka6jc8jizHtoFE): An updated resource for confgiruing Postfix (Debian environment).
 - [How to Configure Gmail Server as a Relayhost in Postfix](https://access.redhat.com/solutions/3201002): An updated resource for configuring Postfix (REHL environment).
-- [Create and Manage Your App Passwords](https://myaccount.google.com/apppasswords): Quick link to creating app passwords
+- [Create and Manage Your App Passwords](https://myaccount.google.com/apppasswords): Quick link to creating app passwords.
 - [Google Security Settings](https://myaccount.google.com/security): Your Google account's security settings page.
 
 
