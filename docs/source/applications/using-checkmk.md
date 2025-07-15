@@ -82,10 +82,10 @@ For more explicit help on this, check out Checkmk's official [Installing Checkmk
 
 
 ## Resources
-- [Install Guide](https://docs.checkmk.com/latest/en/install_packages_redhat.html): Install options for RHEL/CentOS
-- [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html): Using chceckmk via the cli
-- [Basic Information on the Installation of Checkmk](https://docs.checkmk.com/latest/en/install_packages.html): Installation and use guide
-- [Checkmk Welcome Guide](https://docs.checkmk.com/latest/en/welcome.html): Welcome guide to using Checkmk
+- [Install Guide](https://docs.checkmk.com/latest/en/install_packages_redhat.html): Install options for RHEL/CentOS.
+- [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html): Using chceckmk via the cli.
+- [Basic Information on the Installation of Checkmk](https://docs.checkmk.com/latest/en/install_packages.html): Installation and use guide.
+- [Checkmk Welcome Guide](https://docs.checkmk.com/latest/en/welcome.html): Welcome guide to using Checkmk.
 - [Site Admistration with `omd`](https://docs.checkmk.com/latest/en/omd_basics.html): Explore Checkmk's site creation guide.
 - [Monitoring Basics](https://checkmk.com/monitoring): Explore Checkmk's monitoring basics guide.
 - [Monitoring Linux](https://docs.checkmk.com/latest/en/agent_linux.html): Explore monitoring a Linux agent.
