@@ -5,7 +5,7 @@
 ---
 
 ## Step 1: Set Up NFS Export on Server
-- Setup NFS server named (server) on a VM and share `/home` to only (client)
+Setup NFS server named (server) on a VM and share `/home` to only the client.
 
 1. **Install NFS Server Tools and NFS Server**
 ```bash
@@ -14,7 +14,9 @@ sudo yum install nfs-kernel-server
 ```
 
 2. **Configure Exports**
+
 Add the export rule to `/etc/exports`:
+
 ```bash
 /home client_IP(rw,sync,no_subtree_check)
 ```
@@ -33,7 +35,7 @@ sudo systemctl restart nfs-kernel-server
 sudo useradd -m -d /home/tsquare tsquare
 sudo passwd tsquare
 ```
-- This user's home folder now lives on the NFS-exported directory /home.
+- This user's home folder now lives on the NFS-exported directory `/home`.
 
 ## Step 3: Mount Export on Client
 
@@ -50,7 +52,9 @@ sudo mount server:/home /mnt/home
 ## Step 4: Enable Persistence via `/etc/fstab`
 
 1. **Make `/mnt/home` Permanent Across Reboot (on client)**
-Edit the `/etc/fstab` and add:
+
+- Edit the `/etc/fstab` and add:
+
 ```bash
 server:/home	/mnt/home	nfs	defaults	0 0
 ```
@@ -59,7 +63,9 @@ server:/home	/mnt/home	nfs	defaults	0 0
 ## Step 5: Add Client User Pointing to Mounted Home
 
 1. **Add a User to (client) and Make `/mnt/home` their Home Directory**
-Let's say the user is `tsquare`, and their home is mounted over NFS:
+
+- Let's say the user is `tsquare`, and their home is mounted over NFS:
+
 ```bash
 sudo user add -d /mnt/home/tsquare -s /bin/bash tsquare
 sudo passwd tsquare
@@ -95,7 +101,7 @@ sudo useradd -u [UID] -g [GID] -d /home/tsquare -s /bin/bash tsquare
 - This ensures correct ownership of files when `tsquare` logs into the client.
 
 ## Step 7: Use AutoFS for Dynamic Mounting
-- Setup autofs on (client) so that `/server/home` works. This uses autofs to mount the NFS share on demand.
+Setup autofs on (client) so that `/server/home` works. This uses autofs to mount the NFS share on demand.
 
 1. **Install AutoFS**
 ```bash
@@ -120,13 +126,13 @@ sudo systemctl restart autofs
 
 ## Step 8: Enable Root Access
 
-- Share `server:/home` with your desktop so root can write a file to `/home/root` as root. On the server:
+Share `server:/home` with your desktop so root can write a file to `/home/root` as root. On the server:
 
 1. **Allow Root Access in `/etc/exports`**
 ```bash
 /home	desktop_IP(rw,sync,no_subtree_check,no_root_squash)
 ```
-- `no_root_squash` lets the remote root user act as root on the share -- use with caution!
+> **Note:** `no_root_squash` lets the remote root user act as root on the share -- use with caution!
 
 2. **Mount the Share and Write as Root**
 - On the desktop:

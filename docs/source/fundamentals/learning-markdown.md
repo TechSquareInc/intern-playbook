@@ -46,13 +46,12 @@ Rather than using a language like HTML or XML with bracket syntax, Markdown prov
 ![Alt text](image location or url)
 ```
 
-**Code:**
-Inline code: 
+**Inline code:**
 ```markdown
 Use `ls -la` to list files.
 ```
 
-Code block:
+**Code block:**
 ```html
 ```bash
 echo "Hello, world!"

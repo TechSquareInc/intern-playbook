@@ -6,7 +6,7 @@
 
 ## Opening a File
 
-To open or create file use `vim filename`. If the file doesn't exist, it will be created when you save it.
+To open or create file use `vim <filename>`. If the file doesn't exist, it will be created when you save it.
 
 ## Modes in Vim
 
@@ -80,9 +80,9 @@ Press `:` in Normal mode to enter the command line, then:
 - N - repeat in opposite direction
 
 ## Resources
-- [VimGenius](http://www.vimgenius.com/) increase your speed and improve your muscle memory
-- [`vimtutor`](https://vimschool.netlify.app/introduction/vimtutor/) an interactive tutorial. To run Vim Tutor, just call the command `vimtutor`
-- [OpenVim](https://openvim.com/) an interactive tutorial available through your browser
-- [Vim Adventures](https://vim-adventures.com/) learn Vim while playing a game
-- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) a book for Vim users who want to learn how to customize Vim. Before reading you should be comfortable editing text in Vim and know certain terms like "buffer," "window," and "insert mode."
-- [Vim Cheatsheet](https://devhints.io/vim) commonly used keystrokes for easy reference
+- [VimGenius](http://www.vimgenius.com/): increase your speed and improve your muscle memory
+- [`vimtutor`](https://vimschool.netlify.app/introduction/vimtutor/): an interactive tutorial. To run Vim Tutor, just call the command `vimtutor`
+- [OpenVim](https://openvim.com/): an interactive tutorial available through your browser
+- [Vim Adventures](https://vim-adventures.com/): learn Vim while playing a game
+- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/): a book for Vim users who want to learn how to customize Vim. Before reading you should be comfortable editing text in Vim and know certain terms like "buffer," "window," and "insert mode."
+- [Vim Cheatsheet](https://devhints.io/vim): commonly used keystrokes for easy reference
