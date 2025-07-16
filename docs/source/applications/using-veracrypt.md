@@ -6,7 +6,13 @@
 
 ## Installing Veracrypt
 
-1. Download the current version of Veracrypt from the [Veracrypt website](https://www.veracrypt.fr/en/Downloads.html). 
+> **Important Notice:** Per notice of Veracrypt's official documentation page, for RPM packages, you will need to verify the GPG public key before installing the package.
+> - To do so, run `sudo rpm --import https://amcrypto.jp/VeraCrypt/VeraCrypt_PGP_public_key.asc` and verify the finger print matches `5069 A233 D55A 0EEB 174A 5FC3 821A CD02 680D 16DE`.
+> - If the fingerprint does not show, verify the GPG key by listing out the imported keys `rpm -q gpg-pubkey --qf "%{NAME}-%{VERSION}-%{RELEASE} %{SUMMARY}\n"`. Verify the key matches `680D16DE`.
+> - If it does not, remove the key by running `sudo rpm -e gpg-pubkey-<whateverthekeyislistedas>`.
+> - Once the key is verified, you can follow through with installation.
+
+1. Download the current version of Veracrypt from the [Veracrypt website](https://www.veracrypt.fr/en/Downloads.html). There is no release for Rocky 9+, however, you can download the CentOS 8 release.
 
 2. Verify the files were downloaded, then use **tar -xvf veracrypt-1.** ***Current_Version_Number*** **-setup.tar.bz2**
 
