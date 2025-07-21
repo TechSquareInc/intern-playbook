@@ -1,4 +1,4 @@
-# 🧂 Using Salt
+# Using Salt
 
 *Introduction to SaltStack, a Linux configuration managment tool.*
 

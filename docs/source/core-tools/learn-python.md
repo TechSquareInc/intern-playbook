@@ -1,4 +1,4 @@
-# 🐍 Learn Python
+# Learn Python
 
 *Python is a interpreted, object-oriented, high-level programming language with dynamic semantics, known for its readability and ease of use.*
 
