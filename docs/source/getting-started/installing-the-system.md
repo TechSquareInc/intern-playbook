@@ -1,4 +1,4 @@
-# 💻 Installing the System
+# Installing the System
 
 *On your first day, you'll recieve a laptop and a USB stick flashed with a linux distro (likely the latest version of Rocky Linux). However, as you may know, there are a variety of different Linux distributions to choose from. If you are installing a different distro, these instructions may or may not be applicable. This [wikipidea page](https://en.wikipedia.org/wiki/List_of_Linux_distributions)  has a list of different Linux distrubitions to learn more about.*
 

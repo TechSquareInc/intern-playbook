@@ -1,4 +1,4 @@
-# 📋 Intern Tasks
+# Intern Tasks
 
 *This list of tasks serves as starting point for diving into different projects.*
 

@@ -1,4 +1,4 @@
-# 🐦 Using Thunderbird
+# Using Thunderbird
 
 *Thunderbird is a free and open-source email client developed by Mozilla. It allows you to manage multiple email accounts from your desktop, supporting protocols like IMAP, POP3, and SMTP. Thunderbird can be used to: read and send emails, manage multiple accounts, organize emails into folders, work offline with cached messages, and use calander and task add-ons.*
 
