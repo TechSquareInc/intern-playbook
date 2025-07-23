@@ -32,6 +32,7 @@ Contents
 
    introduction/what-is-hpc
    introduction/what-do-sysadmins-in-hpc-do
+   introduction/hpc-architecture
 
 .. toctree::
    :maxdepth: 1
