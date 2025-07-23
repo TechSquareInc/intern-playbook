@@ -32,6 +32,7 @@ Contents
 
    introduction/what-is-hpc
    introduction/what-do-sysadmins-in-hpc-do
+   introduction/hpc-architecture
 
 .. toctree::
    :maxdepth: 1
@@ -41,20 +42,6 @@ Contents
    getting-started/intro-to-linux
    getting-started/learning-vim
    getting-started/learn-bash-scripting
-   getting-started/overview-ssh
-   getting-started/generating-ssh-keys
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Projects & How-Tos
-
-   intern-tasks/intern-tasks-list
-
-.. toctree::
-   :maxdepth: 1
-   :caption: HPC Environment
-
-   cluster/running-python-on-the-cluster
 
 .. toctree::
    :maxdepth: 1
@@ -64,9 +51,11 @@ Contents
    core-tools/getting-started-with-git
    core-tools/using-screen-and-tmux
    core-tools/learning-markdown
+   core-tools/overview-ssh
+   core-tools/generating-ssh-keys
+   core-tools/learn-python
    core-tools/nfs-autofs
    core-tools/apache-web-server
-   core-tools/learn-python
 
 .. toctree::
    :maxdepth: 1
@@ -82,7 +71,17 @@ Contents
 
 .. toctree::
    :maxdepth: 1
+   :caption: Projects & How-Tos
+
+   intern-tasks/intern-tasks-list
+.. toctree::
+   :maxdepth: 1
+   :caption: HPC Environment
+
+   cluster/running-python-on-the-cluster
+
+.. toctree::
+   :maxdepth: 1
    :caption: Miscellaneous
 
    misc/intern-learning-resources
-   misc/intern-docs-style-guide
