@@ -43,3 +43,8 @@ System administators in HPC environments are responisble for maintaining the inf
 - Monitoring system health and usage
 - Enforcing security and data privacy policies
 - Writing scripts and using automation tools to manage configurations
+
+## Resources
+- [High-performance Computing](https://en.wikipedia.org/wiki/High-performance_computing)
+- [What is High-Performance Computing?](https://www.ibm.com/think/topics/hpc)
+- [An Introduction to High-Performance Computing](https://www.youtube.com/watch?v=tGIobcyKViI)
