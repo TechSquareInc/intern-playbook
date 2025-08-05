@@ -41,4 +41,6 @@ Sysadmins in HPC environments often help design and maintain the physical layout
 - Use tools to monitor system health
 - Collect and analyzes logs for errors, anomalies, or performance issues
 - Identify bottlenecks and optimize hardware or configurations
- 
+
+## Resources
+- [Guidance on Becoming an HPC Administrator](https://www.linkedin.com/pulse/guidance-becoming-hpc-administrator-mohammad-huwaidi-8stff/)
