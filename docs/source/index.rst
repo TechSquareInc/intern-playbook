@@ -79,7 +79,7 @@ Contents
    :caption: HPC Environment
 
    cluster/running-python-on-the-cluster
-
+   cluster/vm-hpc-cluster
 .. toctree::
    :maxdepth: 1
    :caption: Miscellaneous
