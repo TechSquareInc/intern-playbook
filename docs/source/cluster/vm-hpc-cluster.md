@@ -1,13 +1,13 @@
 # Create Your Own Virtual HPC Cluster
 
-This document outlines the process for setting up a virtualized network for a High Performance Computing cluster. The objective is to establish a virtual network that supports PXE booting (DHCP and TFTP), NFS and HTTP access, and inter-node communication.
+This document outlines the process for setting up a virtualized network for a High Performance Computing cluster. The objective is to establish a virtual network that supports SSH-based management, NFS shared storage, inter-node communication and munge-based authentication for Slurm, with optional support for PXE booting, Kickstart automated install, and Salt configuration management. This is intended for interns and students to learn about systems administration and HPC infrastrucutre.
 
 ## Network Architecture
 The HPC cluster is composed of the following VM roles:
 
 |VM Name|Role|Services|
 |:------|:---|:-------|
-|`admin`|DCHP, PXE, HTTP, NFS server|dnsmasq, apache, nfs|
+|`admin`|SSH, NFS server|NFS, Munge, Slurm client, SSH|
 |`controller`|Slurm controller, Munge master|slurmctld, munge|
 |`node01`+|Compute nodes|slurmd, munge|
 
@@ -24,6 +24,10 @@ Your XML file may look something like:
   <forward mode='nat'/>
   <bridge name='virbr10' stp='on' delay='0'/>
   <ip address='192.168.100.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.100.100' end='192.168.122.200'/>
+    </dhcp>
+  </ip>
 </network>
 ```
 
@@ -294,3 +298,62 @@ sudo systemctl enable --now slurmd
 sinfo
 srun hostname
 ```
+## Step 8 (Optional): Add SaltStack for Configuration Management
+
+### Download and install Salt Bootstrap
+
+On the Master (Admin Node):
+```bash
+curl -o bootstrap-salt.sh -L https://github.com/saltstack/salt-bootstrap/releases/latest/download/bootstrap-salt.sh
+sudo sh bootstrap-salt.sh -P -M stable 3006.1
+```
+
+On the Minions (Controller and Node01):
+```bash
+curl -o bootstrap-salt.sh -L https://github.com/saltstack/salt-bootstrap/releases/latest/download/bootstrap-salt.sh
+sudo sh bootstrap-salt.sh -P stable 3006.1
+```
+
+### Enable Salt on Master / Minions
+
+```bash
+sudo systemctl enable --now salt-master #master
+sudo systemctl enable --now salt-minion #minion
+```
+
+### Configure the Salt minion
+
+On each Minion, create and add the file `/etc/salt/minion.d/master.conf`:
+```bash
+master: admin
+```
+
+Then restart the minion:
+```bash
+sudo systemctl restart salt-minion
+```
+
+### Accept the Keys
+
+On the Salt Master:
+```bash
+sudo salt-key -L # list pending keys (you'll see each minion by its hostname)
+sudo salt-key -A # accept all keys
+```
+
+### Test Connection
+```bash
+sudo salt '*' test.ping
+```
+
+
+## Resources
+- [Slurm Documentation](https://slurm.schedmd.com/quickstart_admin.html#quick_start)
+- [Ubuntu Server Docs](https://documentation.ubuntu.com/server/)
+- [Libvirt Networking](https://wiki.libvirt.org/VirtualNetworking.html)
+- [PXELINUX/SYSLINUX](https://wiki.syslinux.org/wiki/index.php?title=PXELINUX)
+- [Kickstart Installation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/installation_guide/sect-kickstart-howto)
+- [Munge Installation](https://github.com/dun/munge/wiki/Installation-Guide)
+- [dnsmasq Docs](https://thekelleys.org.uk/dnsmasq/doc.html)
+- [Bootstap Salt](https://github.com/saltstack/salt-bootstrap/blob/develop/README.rst#install-using-curl)
+- [Configure Salt](https://docs.saltproject.io/salt/install-guide/en/latest/topics/configure-master-minion.html)
