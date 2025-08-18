@@ -6,7 +6,7 @@
 Intern Playbook
 ===============
 
-**Welcome** the the HPC System Adminstration Learning Hub. Whether you applied to our internship program or you're simply interested in exploring the world of system adminstration in a high-performancing computing environment, this guide is built for you. Our goal is to give students and early-career professionals a window into the day-to-day work of HPC system administrators, and help you build the skills to get started yourself.
+**Welcome** to the HPC System Adminstration Learning Hub. Whether you applied to our internship program or you're simply interested in exploring the world of system adminstration in a high-performancing computing environment, this guide is built for you. Our goal is to give students and early-career professionals a window into the day-to-day work of HPC system administrators, and help you build the skills to get started yourself.
 
 Working in HPC environments can be fast-paced and fascinating, where you'll be challenged to learn what it takes to manage such powerful systems that support cutting-edge research. 
 
