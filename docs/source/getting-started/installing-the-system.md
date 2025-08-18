@@ -4,6 +4,9 @@
 
 ---
 
+## Linux and HPC
+Linux is the dominant operating system for High Performance Computing clusters, as it provides flexible, customizable, and cost-effective platforms for buidling and managing HPC environments.
+
 ## Linux Distributions
 While all Linux distributions share the Linux kernel, they can differ slightly in how they handle packages and system configurations. Common Linux families include:
 
