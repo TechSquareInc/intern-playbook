@@ -47,6 +47,7 @@ Use the prefix `Ctrl` + `B`
 
 Generally, `screen` is a more basic, limited, and minimal screen multiplexer. It offers some customization and is generally easier to use. However, `tmux` is highly customizable and offers more advanced pane and window management, and scripting support. A more detailed analysis of the two can be found [here](https://linuxhint.com/tmux_vs_screen/).
 
+---
 ## Resources
 - [Customize `tmux`](https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/) make tmux pretty and usable
 - [`tmux` Cheatsheet](https://tmuxcheatsheet.com/) guide for easy reference

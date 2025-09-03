@@ -37,6 +37,7 @@ su root
 
 If no username is specified, the root user is automatically assumed. For more information on `su` checkout [this resource](https://wiki.centos.org/TipsAndTricks(2f)BecomingRoot.html) or visit the `su` [man pages](https://man7.org/linux/man-pages/man1/su.1.html).
 
+---
 ## Resources
 - [Configuring the Sudoers File](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-configuring-the-linux-sudoers-file): Short guide to understanding the sudoers configuration file.
 - [`su` Man Pages](https://man7.org/linux/man-pages/man1/su.1.html): Deep dive into the `su` command.

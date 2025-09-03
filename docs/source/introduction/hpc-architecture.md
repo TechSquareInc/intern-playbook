@@ -35,6 +35,7 @@ The complexity of HPC system requires a significant infrastructure to operate an
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6pbk-WV1SY8?si=faNR6YrBlso09Xlx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
 ## Resources
 - [NIST SP 800-223 High-Performance Computing Security](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-223.pdf): Architecture, Threat Analysis, and Security Posture.
 - [HPC Kitchen](https://www.youtube.com/playlist?list=PLZLVmS9rf3nNDHRo1Baz_JVQWDI0mTYyB): A series that goes over the basics of High Performance Computing concepts... in the kitchen.

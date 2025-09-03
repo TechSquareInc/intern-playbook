@@ -37,7 +37,7 @@ http://<vm-ip-address>
 
 - You should see the Apache2 default welcome page.
 
-
+---
 ## Resoruces
 - [How to Deploy Apache Web Server Quickly](https://www.redhat.com/en/blog/install-apache-web-server): Learn to deploy a web server with Apache HTTP Server.
 - [Apache HTTP Server Docs](https://httpd.apache.org/docs/2.4/): Apache's offical HTTP Server Documentation.

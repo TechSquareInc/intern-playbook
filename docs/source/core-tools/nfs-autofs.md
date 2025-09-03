@@ -146,6 +146,7 @@ sudo touch /mnt/home/root/hello.txt
 - AutoFS works in tandem with NFS, rather than replacing it.
 - Be careful with syntax and spacing in nfs configuration files.
 
+---
 ## Resources
 **History:**
 - [NFS: the early years](https://lwn.net/Articles/897917/)

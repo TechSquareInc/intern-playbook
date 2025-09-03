@@ -113,6 +113,7 @@ git checkout -- filename
 git revert <commit-id>
 ```
 
+---
 ## Resources
 - [GitHub Learning Lab](https://github.com/apps/github-learning-lab): bot lead series of practical projects to level up your GitHub skills
 - [Git Branching](https://learngitbranching.js.org/?locale=en_US): a visual and interactive way to learn Git on the web

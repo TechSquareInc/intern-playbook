@@ -44,6 +44,7 @@ SSH uses strong [encryption](https://www.youtube.com/watch?v=xHAMEF7-inQ) algori
 
 Unlike the previous two forms of encryption, hashing is never meant to be decrypted. [Hashing](https://www.youtube.com/watch?v=EcGmQjl6XEo) takes an input (like a password) and runs it through a mathematical function to produce a fixed-length string of characters called a hash. Becasue this function happens one-way, you cannot reverse the hash to get an original input. This makes it secure for passwords and data verification.
 
+---
 ## Resources
 - [Public Key Infrastructure](https://www.youtube.com/watch?v=xHAMEF7-inQ): Professor Messer's explanation of symmetric encryption, asymmetric encryption, and key pairs.
 - [Hashing and Digital Signature](https://www.youtube.com/watch?v=EcGmQjl6XEo): Professor Messer's explanation of hashing and digitial signatures.
