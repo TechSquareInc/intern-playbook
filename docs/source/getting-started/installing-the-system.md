@@ -45,8 +45,6 @@ The [Linux boot process](https://en.wikipedia.org/wiki/Booting_process_of_Linux)
 5. **Init System:** System initialization which starts the essential system services such as for networking, loggingm or user management.
 6. **User Login:** Once `init` process is complete, the system presents a login screen, allowing users to log in and access the system.
 
-![linux boot process](https://media.licdn.com/dms/image/v2/D5622AQEbxeHiI27Q-g/feedshare-shrink_800/B56ZfPDY3xHoAk-/0/1751525463324?e=1755129600&v=beta&t=XLqwKaY4Weadjf5gp1W8t3QZTDS3H6iZX1d--ccFw3c)
-
 ### Resources
 - [Linux Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A list of all of the different linux distributions.
 - [Linux Distribution](https://en.wikipedia.org/wiki/Linux_distribution): In-depth exploration of what a Linux distribution is.
