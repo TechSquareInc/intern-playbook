@@ -15,7 +15,7 @@ HPC environemnts are structured to support the execution of compute-intensive ta
 
 The **access zone** serves as the primary interface between users and the HPC environment. It is responisble for authenticating users, facilitating secure remote access, and is used as the environment where users can submit and monitor jobs.
 
-This zone is composed of one or more nodes that allow users and administrators to access the system. At least one of these nodes will be the **login node** where users have access to shells to launch interactive or batch jobs. Login nodes are where users access the cluster, login, edit fiels, view job results, and submit new jobs, but *are not* for running application workloads. Some login nodes may have specialized visualization hardware or software, and there may also be one or more nodes allocated to data transfer which provides services to transfer data in or out of the HPC system and could also provide storage mounting services.
+This zone is composed of one or more nodes that allow users and administrators to access the system. At least one of these nodes will be the **login node** where users have access to shells to launch interactive or batch jobs. Login nodes are where users access the cluster, login, edit files, view job results, and submit new jobs, but *are not* for running application workloads. Some login nodes may have specialized visualization hardware or software, and there may also be one or more nodes allocated to data transfer which provides services to transfer data in or out of the HPC system and could also provide storage mounting services.
 
 ### Compute Zone
 

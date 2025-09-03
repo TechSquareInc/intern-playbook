@@ -35,7 +35,7 @@ HPC is widely used across many fields, including:
 
 ## HPC from a System Administrator's Perspective
 
-System administators in HPC environments are responisble for maintaining the infrastructure that researcher and engineers rely on. This includes:
+System administators in HPC environments are responisble for maintaining the infrastructure that researchers and engineers rely on. This includes:
 
 - Managing compute nodes, login nodes, and storage systems
 - Supporting users and helping debug issues

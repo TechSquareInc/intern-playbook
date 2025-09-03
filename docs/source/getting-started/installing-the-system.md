@@ -15,7 +15,7 @@ While all Linux distributions share the Linux kernel, they can differ slightly i
 - **Arch** offers cutting edge software on a rolling release model. Arch is known for its minimalistic design, which allows users to customize their system to their exact needs. Arch uses the `pacman` package manager. Some examples include Arch Linux or Manjaro.
 
 ## Installation Procedure
-This steps apply broadly to installing Linux on a computer uses a USB stick.
+These steps apply broadly to installing Linux on a computer uses a USB stick.
 1. Create a bootable USB drive: Download an ISO file of your chosen Linux distro and use a tool like Balena Etcher or Rufus to flash it to a USB stick. 
 2. While the laptop is powered off, insert the USB stick.
 3. Access the boot menu: Power on or reboot your computer, and press the boot menu key (`F12`,`Esc`,`F10`, or similar depending on your system.)
