@@ -1,6 +1,6 @@
 # Intern Playbook
 
-This repository contains documentation for interns, built using [Sphinx](https://www.sphinx-doc.org/) and will eventually get deployed to a static website hosted on AWS S3.
+This repository contains documentation for interns, built using [Sphinx](https://www.sphinx-doc.org/) and gets deployed to a static website hosted on AWS S3.
 
 ##  Purpose
 
@@ -40,6 +40,6 @@ $ xdg-open docs/build/html/index.html
 ## Deployment Workflow
  - Work happens in **feature branches off** `dev`
  - Open a PR into dev
- - Merging into `dev` will (eventually):
+ - Merging into `dev` will:
    - Trigger a GitHub Action to build the docs
    - Deploy them to the Dev S3 bucket
