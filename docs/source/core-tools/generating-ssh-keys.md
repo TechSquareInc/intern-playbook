@@ -53,6 +53,7 @@ ssh-add ~/.ssh/id_ed25519
 - **RSA** stands for **Rivest-Shamir-Adleman** and is a type of public-key cryptography algorithm that is used with legacy system compatibility. RSA uses an asymmetric algorithm that's based on integer factorization. It is generally slower and requires longer keys to meet modern standards. The key file format is similar to Ed25519 and reads like `id_rsa/id_rsa.pub`.
 - **Ed255519** is a high-security, high-performance digital signature scheme. It is asymmetric and is based on elliptic curve cryptography, specifically the **Edwards-curve Digital Signature Algorithm (EdDSA)** and utilizes the **Curve25519** elliptic curve. It is generally faster, is fixed at a size of 256 bits, and is designed for modern cryptographic needs. The key file format reads like `id_ed25519/id_ed25519.pub`.
 
+---
 ## Resources 
 - [GitHub Docs: Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh): Resources about SSH and connecting to GitHub.
 - [GitHub Docs: Generating New SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent): Generate SSH keys to enable authentication for Git operations over SSH.

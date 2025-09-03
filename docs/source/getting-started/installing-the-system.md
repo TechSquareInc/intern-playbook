@@ -15,7 +15,7 @@ While all Linux distributions share the Linux kernel, they can differ slightly i
 - **Arch** offers cutting edge software on a rolling release model. Arch is known for its minimalistic design, which allows users to customize their system to their exact needs. Arch uses the `pacman` package manager. Some examples include Arch Linux or Manjaro.
 
 ## Installation Procedure
-This steps apply broadly to installing Linux on a computer uses a USB stick.
+These steps apply broadly to installing Linux on a computer uses a USB stick.
 1. Create a bootable USB drive: Download an ISO file of your chosen Linux distro and use a tool like Balena Etcher or Rufus to flash it to a USB stick. 
 2. While the laptop is powered off, insert the USB stick.
 3. Access the boot menu: Power on or reboot your computer, and press the boot menu key (`F12`,`Esc`,`F10`, or similar depending on your system.)
@@ -45,10 +45,10 @@ The [Linux boot process](https://en.wikipedia.org/wiki/Booting_process_of_Linux)
 5. **Init System:** System initialization which starts the essential system services such as for networking, loggingm or user management.
 6. **User Login:** Once `init` process is complete, the system presents a login screen, allowing users to log in and access the system.
 
-![linux boot process](https://media.licdn.com/dms/image/v2/D5622AQEbxeHiI27Q-g/feedshare-shrink_800/B56ZfPDY3xHoAk-/0/1751525463324?e=1755129600&v=beta&t=XLqwKaY4Weadjf5gp1W8t3QZTDS3H6iZX1d--ccFw3c)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XpFsMB6FoOs?si=3Dplu8c3acsMyIcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
 ### Resources
 - [Linux Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A list of all of the different linux distributions.
 - [Linux Distribution](https://en.wikipedia.org/wiki/Linux_distribution): In-depth exploration of what a Linux distribution is.
-- [Linux Boot Process](https://www.youtube.com/watch?v=XpFsMB6FoOs): High level overview of the Linux boot process.
 - [Booting Process of Linux](https://en.wikipedia.org/wiki/Booting_process_of_Linux): In-depth exploration of the Linux boot process.

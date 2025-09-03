@@ -103,7 +103,8 @@ The default editor in bash for most linux systems is [nano](https://www.nano-edi
 
 ### Challenge
 [BashBlaze: 7 Days of Bash Scripting](../intern-tasks/7-days-of-bash-scripting)
- 
+
+---
 ### Resources
 - [Learn Shell](https://www.learnshell.org/): an interactive way to learn Bash basics.
 - [Bash Scripting Tutorial](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/): A beginner's guide to Linux shell script and command line.

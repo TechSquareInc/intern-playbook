@@ -83,6 +83,7 @@ or
 - [ ] Finish documentation
 ```
 
+---
 ## Resources
 - [Markdown Guide](https://www.markdownguide.org/) free and open-source reference guide that explains how to use Markdown
 - [Markdown Practice](https://dillinger.io/) write markdown on the left and see the formatted output on the right

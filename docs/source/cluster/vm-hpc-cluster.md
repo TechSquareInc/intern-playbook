@@ -346,7 +346,7 @@ sudo salt-key -A # accept all keys
 sudo salt '*' test.ping
 ```
 
-
+---
 ## Resources
 - [Slurm Documentation](https://slurm.schedmd.com/quickstart_admin.html#quick_start)
 - [Ubuntu Server Docs](https://documentation.ubuntu.com/server/)

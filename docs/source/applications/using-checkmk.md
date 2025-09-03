@@ -80,7 +80,7 @@ Checkmk offers monitoring services for everything from servers, networks, applic
 
 For more explicit help on this, check out Checkmk's official [Installing Checkmk and Monitoring your First Host Tutorial](https://www.youtube.com/watch?v=opO-SOgOJ1I).
 
-
+---
 ## Resources
 - [Install Guide](https://docs.checkmk.com/latest/en/install_packages_redhat.html): Install options for RHEL/CentOS.
 - [Checkmk on the Command Line](https://docs.checkmk.com/latest/en/cmk_commandline.html): Using chceckmk via the cli.

@@ -54,15 +54,15 @@ Contents
    core-tools/overview-ssh
    core-tools/generating-ssh-keys
    core-tools/learn-python
-   core-tools/nfs-autofs
-   core-tools/apache-web-server
 
 .. toctree::
    :maxdepth: 1
    :caption: Applications
 
-   applications/using-thunderbird
    applications/creating-virtual-machine
+   applications/nfs-autofs
+   applications/apache-web-server
+   applications/using-thunderbird
    applications/intro-to-wazuh
    applications/using-salt
    applications/configure-postfix

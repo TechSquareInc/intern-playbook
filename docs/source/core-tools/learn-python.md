@@ -125,6 +125,7 @@ Some common libraries include:
 - `matplotlib` - plotting
 - `pandas` - dataframes
 
+---
 ## Resources
 - [Offical Docs](https://docs.python.org/3/): Python's offical documentation site.
 - [Python for Beginners](https://www.python.org/about/gettingstarted/): A helpful resource for installing and learning Python.

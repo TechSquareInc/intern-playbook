@@ -31,6 +31,7 @@ Use `#!/usr/bin/env python3` instead of `#!/bin/python3`.
 	#!/bin/python3
 ```
 
+---
 ## Resources
 - [Running Python on an HPC Cluster](https://researchcomputing.princeton.edu/support/knowledge-base/python#quick): This site goes through setting up and running Python on an HPC cluster.
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html): This tutorial is designed for *programmers* that are new to Python, but **not** *beginners* who are new to programming.

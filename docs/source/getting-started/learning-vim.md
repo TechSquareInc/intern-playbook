@@ -79,6 +79,7 @@ Press `:` in Normal mode to enter the command line, then:
 - n - repeat search in same direction
 - N - repeat in opposite direction
 
+---
 ## Resources
 - [VimGenius](http://www.vimgenius.com/): increase your speed and improve your muscle memory
 - [`vimtutor`](https://vimschool.netlify.app/introduction/vimtutor/): an interactive tutorial. To run Vim Tutor, just call the command `vimtutor`
