@@ -53,6 +53,7 @@ To allow SSH access, configure virtual networking:
 - Refer to: [Libvirt Virtual Networking](https://wiki.libvirt.org/VirtualNetworking.html)
 - By defualt, virt-manager may already have NAT forwarding enabled.
 
+---
 ## Resources
 - [How to Install KVM and Libvirt](https://www.howtoforge.com/how-to-install-kvm-and-libvirt-on-centos-6.2-with-bridged-networking): Step by step in depth installation guide for KVM and Libvirt tools
 - [How to Create Virtual Machines in Linux Using KVM](https://www.tecmint.com/install-and-configure-kvm-in-linux/): Step by step in depth installation guide for installing and configuring virt-manager application and machines

@@ -46,6 +46,7 @@ As previously mentioned, Salt is a powerful open-source tool for automating syst
 ## Using Vagrant as a Development Environment (optional)
 [Vagrant](https://developer.hashicorp.com/vagrant) is a tool for managing virtual machine environments in a reproducible way using simple configuration files called `Vagrantfile`. Vagrant makes it easy to rebuild development environments, which is great for testing Salt states before applying them in production. Vagrant is also compatible with KVM environments. Learn more about using Vagrant with your KVM / Libvirt environment [here](https://github.com/vagrant-libvirt/vagrant-libvirt). 
 
+---
 ## Resources
 - [Salt Installation Guide](https://docs.saltproject.io/salt/install-guide/en/latest/index.html): Instructions for installing Salt
 - [SaltStack Installation Tutorial](https://www.tutorialspoint.com/saltstack/saltstack_installation.htm): Ubuntu based Salt intallation tutorial

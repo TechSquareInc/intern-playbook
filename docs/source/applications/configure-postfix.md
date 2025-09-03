@@ -114,6 +114,7 @@ echo "mailtest" | mail -s "mailtest" <user>@<domain.com>
 
 8. If successful, you will recieve an email in your inbox from your gmail domain.
 
+---
 ## Resources
 - [Postfix Official Documentation](https://www.postfix.org/documentation.html): Everything Postfix explained.
 - [Sign-in with App Passwords](https://support.google.com/mail/answer/185833?hl=en): A google help center guide to app passwords.

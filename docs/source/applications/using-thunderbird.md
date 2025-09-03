@@ -40,6 +40,7 @@ sudo yum install thunderbird
 - Adjust sync settings to reduce disk usage
 - Backup profile using Thunderbird's profile manager
 
+---
 ## Resources
 - [Thunderbird Offical Site](https://www.thunderbird.net/en-US/)
 - [Thunderbird Gmail Setup Docs](https://support.mozilla.org/en-US/kb/thunderbird-and-gmail)

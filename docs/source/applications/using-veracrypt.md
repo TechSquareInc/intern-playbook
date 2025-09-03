@@ -51,6 +51,7 @@
 
 ![](https://user-images.githubusercontent.com/39737662/42830315-115ec75a-89b9-11e8-88aa-8933c1cd6fd6.png)
 
+---
 ## Resources
 
 - [Veracrypt Documentation](https://www.veracrypt.fr/en/Documentation.html): The official documentation page for Vercrypt.
