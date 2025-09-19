@@ -12,11 +12,7 @@ sudo yum install thunderbird
 
 ## Step 2: Enable IMAP in Gmail
 
-1. Log into Gmail
-2. Click the gear icon -> See all settings
-3. Go to the Forwarding and POP/IMAP tab
-4. Under IMAP Access, select Enable IMAP
-5. Save changes
+Starting January 2025, the option to choose “Enable IMAP” or “Disable IMAP” won't be available. IMAP access is always turned on in Gmail, and your current connections to other email clients aren’t affected. You don’t need to take any action.
 
 ## Step 3: Add Gmail Account to Thunderbird
 
