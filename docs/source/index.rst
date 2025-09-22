@@ -10,8 +10,8 @@ Intern Playbook
 
 Working in HPC environments can be fast-paced and fascinating, where you'll be challenged to learn what it takes to manage such powerful systems that support cutting-edge research. 
 
-**What You'll Find Here**
-
+What You'll Find Here
+---------------------
 This resource is designed to help you:
 
 * Understand the basics of Linux and terminal workflows.
@@ -20,6 +20,10 @@ This resource is designed to help you:
 * Discover best practices in system administration and security.
 
 You don't need to have prior experience with HPC or system administration, just a curiousity and a willingness to try things out.
+
+Structure of the Playbook
+-------------------------
+This site is seperated into different sections. As you'll see from the contents listed on this page, each section is designed to ease you into HPC topics. At the bottom of each page, there is a **Resource** section, which contains links to documentation, additional information, and a variety of tutorials to try out for each topic. Under **Projects & How-Tos**, you'll find a list of intern tasks that link back to relevant topics.
 
 Contents
 --------
