@@ -78,6 +78,7 @@ Contents
    :caption: Projects & How-Tos
 
    intern-tasks/intern-tasks-list
+   intern-tasks/create-your-own-docs
 .. toctree::
    :maxdepth: 1
    :caption: HPC Environment
@@ -89,4 +90,3 @@ Contents
    :caption: Miscellaneous
 
    misc/intern-learning-resources
-   misc/create-your-own-docs

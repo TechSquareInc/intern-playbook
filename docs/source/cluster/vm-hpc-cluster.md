@@ -1,6 +1,6 @@
 # Create Your Own Virtual HPC Cluster
 
-This document outlines the process for setting up a virtualized network for a High Performance Computing cluster. The objective is to establish a virtual network that supports SSH-based management, NFS shared storage, inter-node communication and munge-based authentication for Slurm, with optional support for PXE booting, Kickstart automated install, and Salt configuration management. This is intended for interns and students to learn about systems administration and HPC infrastrucutre.
+This document outlines the process for setting up a virtualized network for a High Performance Computing cluster. The objective is to establish a virtual network that supports SSH-based management, NFS shared storage, inter-node communication and munge-based authentication for Slurm, with optional support for Salt configuration management. This is intended for interns and students to learn about systems administration and HPC infrastrucutre.
 
 ## Network Architecture
 The HPC cluster is composed of the following VM roles:
@@ -300,7 +300,7 @@ srun hostname
 ```
 ## Step 8 (Optional): Add SaltStack for Configuration Management
 
-### Download and install Salt Bootstrap
+### Download and Install Salt Bootstrap
 
 On the Master (Admin Node):
 ```bash
@@ -351,9 +351,9 @@ sudo salt '*' test.ping
 - [Slurm Documentation](https://slurm.schedmd.com/quickstart_admin.html#quick_start)
 - [Ubuntu Server Docs](https://documentation.ubuntu.com/server/)
 - [Libvirt Networking](https://wiki.libvirt.org/VirtualNetworking.html)
-- [PXELINUX/SYSLINUX](https://wiki.syslinux.org/wiki/index.php?title=PXELINUX)
-- [Kickstart Installation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/installation_guide/sect-kickstart-howto)
 - [Munge Installation](https://github.com/dun/munge/wiki/Installation-Guide)
 - [dnsmasq Docs](https://thekelleys.org.uk/dnsmasq/doc.html)
 - [Bootstap Salt](https://github.com/saltstack/salt-bootstrap/blob/develop/README.rst#install-using-curl)
 - [Configure Salt](https://docs.saltproject.io/salt/install-guide/en/latest/topics/configure-master-minion.html)
+- [Kickstart Installation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/installation_guide/sect-kickstart-howto)
+- [PXELINUX/SYSLINUX](https://wiki.syslinux.org/wiki/index.php?title=PXELINUX)
