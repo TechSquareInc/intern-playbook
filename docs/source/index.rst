@@ -89,3 +89,4 @@ Contents
    :caption: Miscellaneous
 
    misc/intern-learning-resources
+   misc/create-your-own-docs
