@@ -120,3 +120,4 @@ git revert <commit-id>
 - [Git Book (free)](https://git-scm.com/book/en/v2): a free complete and indepth Git resource
 - [Git Cheatsheet (GitHub)](https://education.github.com/git-cheat-sheet-education.pdf): features the most important and commonly used Git commands for easy reference.
 - [Git-it](https://github.com/jlord/git-it-electron): a desktop app that teaches you how to use Git and GitHub on the command line.
+- [Missing Semester of Your CS Education](https://missing.csail.mit.edu/2020/version-control/): Version Control (Git)
