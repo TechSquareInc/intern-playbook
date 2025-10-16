@@ -72,6 +72,7 @@ Contents
    applications/configure-postfix
    applications/using-checkmk
    applications/using-veracrypt
+   applications/using-ansible
 
 .. toctree::
    :maxdepth: 1
