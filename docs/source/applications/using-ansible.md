@@ -11,7 +11,7 @@
 |**Concept**|**Description**|
 |:---------:|:--------------|
 |Control Node|The machine which you run Ansible CLI tools.|
-|Managed Nodes|Also refered to as "hosts", these are the systems that ansible connects to and configures.|
+|Managed Nodes|Also referred to as "hosts", these are the systems that ansible connects to and configures.|
 |Inventory|A list of hosts (and groups of hosts) that Ansible manages. Defined in a file called `hosts`.|
 |Playbook|A YAML file that defines the desired state of one or more systems through "plays" and "tasks".|
 |Module|Small programs that perform specific tasks (install a package, copy a file, start a service).|
@@ -32,6 +32,8 @@
 ### Ansible Lab using Vagrant
 
 [Ansible Lab](https://github.com/chloegerhardson/ansible_lab): This repository builds an ansible lab environment using Vagrant and Libvirt to create a small cluster of virtual machines for running playbooks, configuration management, and orchestration exercises.
+
+---
 
 ## Resources
 - [Ansible Docs](https://docs.ansible.com/ansible/latest/getting_started/index.html): Getting started with Ansible
