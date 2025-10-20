@@ -20,7 +20,7 @@
 
 ### How Does Ansible Work?
 
-1. Inventory deines what systems to manage.
+1. Inventory defines what systems to manage.
 2. Playbooks define what actions to take.
 3. Ansible connects to each system via SSH using the credentials provided.
 4. Tasks are executed through modules.
@@ -33,6 +33,10 @@
 
 [Ansible Lab](https://github.com/chloegerhardson/ansible_lab): This repository builds an ansible lab environment using Vagrant and Libvirt to create a small cluster of virtual machines for running playbooks, configuration management, and orchestration exercises.
 
+## Ansible Galaxy
+
+[Ansible Galaxy](https://galaxy.ansible.com/ui/) is a hub and command-line tool for sharing and downloading Ansible roles and collections. It allows you to quickly reuse automation content created by the community or your organization. Ansible Galaxy provides Roles, and Collections. Roles are a way to organize and group tasks into a single, reusable container. They provide a clean directroy structure for performing a specific task. Collections are bundles of roles, playbooks, plugins, and modules, typically organized by vendor or topic. More information on installing and using Ansible Galaxy is available on their [Community User Guide](https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide.html).
+
 ---
 
 ## Resources
@@ -41,4 +45,5 @@
 - [Vagrant Documentation](https://developer.hashicorp.com/vagrant): Offical Vagrant documentation site
 - [Installing Vagrant](https://developer.hashicorp.com/vagrant/install): Basic steps to get Vagrant installed in your environment
 - [Using Vagrant with KVM/Libvirt](https://github.com/vagrant-libvirt/vagrant-libvirt): A Vagrant plugin that adds a Libvirt provider to Vagrant
-- [Ansible Tutorial for Beginners](https://spacelift.io/blog/ansible-tutorial): Beginner tutorial using Vagrant and Virtual Box
+- [Ansible Tutorial for Beginners](https://spacelift.io/blog/ansible-tutorial): Beginner tutorial using Vagrant and Virtual Boxi
+- [Ansible Galaxy Documentation](https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide.html): Official Ansible Galaxy User Guide
