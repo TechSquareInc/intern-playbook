@@ -1,16 +1,8 @@
-# A Beginners Guide to High Performance Computing
+# A Beginner's Guide to High Performance Computing
 
 *Having examined the foundational tools, concepts, and applications surrounding high performance computing, we can now turn our focus to the underlying key characteristics of HPC systems.*
 
 ---
-
-## Job Schedulers
-
-At the heart of every HPC environment is the job scheduler. Since an HPC system might have thousands of compute nodes and users running tasks simultaneously, a scheduler ensures that resources are allocated efficiently and fairly. Job schedulers such as [Slurm](https://slurm.schedmd.com/), [PBS](https://en.wikipedia.org/wiki/Portable_Batch_System), or [LSF](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=lsf-session-scheduler) manage this process by queuing, prioritizing, and distributing workloads across available nodes, maximizing system utilization and minimizing idle time.
-
-## Parallel Computing
-
-Another defining feature of HPC is parallel computing, which allows many processors to work on different parts of a problem at the same time. Rather than a single processor completing tasks sequentially, hundreds or even thoasands of processors collaborate to solve complex problems faster. To make this coordination possible, developers rely on programming models such as [MPI(Message Passing Interface)](https://mpitutorial.com/) for distributed systems, [OpenMP](https://hpc-tutorials.llnl.gov/openmp/) for shared memory processing, and [CUDA](https://en.wikipedia.org/wiki/CUDA) for GPU acceleration.
 
 ## Inside the Hardware
 
@@ -19,6 +11,14 @@ To understand performance, it helps to know what's happening under the hood. Per
 - Cache/Memory Hierarchy: how quickly can data be accessed?
 - Interconnects: how fast is the communication speed between nodes?
 - Parallel File Systems: is there shared storage that can handle many users reading and writing data at once?
+
+## Job Schedulers
+
+At the heart of every HPC environment is the job scheduler. Since an HPC system might have thousands of compute nodes and users running tasks simultaneously, a scheduler ensures that resources are allocated efficiently and fairly. Job schedulers such as [Slurm](https://slurm.schedmd.com/), [PBS](https://en.wikipedia.org/wiki/Portable_Batch_System), or [LSF](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=lsf-session-scheduler) manage this process by queuing, prioritizing, and distributing workloads across available nodes, maximizing system utilization and minimizing idle time.
+
+## Parallel Computing
+
+Another defining feature of HPC is parallel computing, which allows many processors to work on different parts of a problem at the same time. Rather than a single processor completing tasks sequentially, hundreds or even thoasands of processors collaborate to solve complex problems faster. To make this coordination possible, developers rely on programming models such as [MPI (Message Passing Interface)](https://mpitutorial.com/) for distributed systems, [OpenMP](https://hpc-tutorials.llnl.gov/openmp/) for shared memory processing, and [CUDA](https://en.wikipedia.org/wiki/CUDA) for GPU acceleration.
 
 ## Data and Storage
 
