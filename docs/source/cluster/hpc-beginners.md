@@ -1,8 +1,16 @@
-# A Beginners Guide to High Performance Computing
+# A Beginner's Guide to High Performance Computing
 
 *Having examined the foundational tools, concepts, and applications surrounding high performance computing, we can now turn our focus to the underlying key characteristics of HPC systems.*
 
 ---
+
+## Inside the Hardware
+
+To understand performance, it helps to know what's happening under the hood. Performance depends on several hardware layers that contribute to a system's computational efficiency.
+- CPU Architecture: How many cores and threads does each processor have?
+- Cache and Memory Hierarchy: How quickly can data be accessed or reused?
+- Interconnects: How fast is the communication speed between nodes?
+- Parallel File Systems: Is there shared storage capable of handling many users reading and writing data simultaneously?
 
 ## Job Schedulers
 
@@ -10,15 +18,7 @@ At the heart of every HPC environment is the job scheduler. Since an HPC system 
 
 ## Parallel Computing
 
-Another defining feature of HPC is parallel computing, which allows many processors to work on different parts of a problem at the same time. Rather than a single processor completing tasks sequentially, hundreds or even thoasands of processors collaborate to solve complex problems faster. To make this coordination possible, developers rely on programming models such as [MPI(Message Passing Interface)](https://mpitutorial.com/) for distributed systems, [OpenMP](https://hpc-tutorials.llnl.gov/openmp/) for shared memory processing, and [CUDA](https://en.wikipedia.org/wiki/CUDA) for GPU acceleration.
-
-## Inside the Hardware
-
-To understand performance, it helps to know what's happening under the hood. Performance depends on several hardware layers that contribute to a systems computational efficiency.
-- CPU Architecture: how many cores and threads does each processor have?
-- Cache/Memory Hierarchy: how quickly can data be accessed?
-- Interconnects: how fast is the communication speed between nodes?
-- Parallel File Systems: is there shared storage that can handle many users reading and writing data at once?
+Another defining feature of HPC is parallel computing, which allows many processors to work on different parts of a problem at the same time. Rather than a single processor completing tasks sequentially, hundreds or even thoasands of processors collaborate to solve complex problems faster. To make this coordination possible, developers rely on programming models such as [MPI (Message Passing Interface)](https://mpitutorial.com/) for distributed systems, [OpenMP](https://hpc-tutorials.llnl.gov/openmp/) for shared memory processing, and [CUDA](https://en.wikipedia.org/wiki/CUDA) for GPU acceleration.
 
 ## Data and Storage
 
