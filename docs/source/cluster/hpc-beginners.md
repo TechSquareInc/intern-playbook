@@ -6,11 +6,11 @@
 
 ## Inside the Hardware
 
-To understand performance, it helps to know what's happening under the hood. Performance depends on several hardware layers that contribute to a systems computational efficiency.
-- CPU Architecture: how many cores and threads does each processor have?
-- Cache/Memory Hierarchy: how quickly can data be accessed?
-- Interconnects: how fast is the communication speed between nodes?
-- Parallel File Systems: is there shared storage that can handle many users reading and writing data at once?
+To understand performance, it helps to know what's happening under the hood. Performance depends on several hardware layers that contribute to a system's computational efficiency.
+- CPU Architecture: How many cores and threads does each processor have?
+- Cache and Memory Hierarchy: How quickly can data be accessed or reused?
+- Interconnects: How fast is the communication speed between nodes?
+- Parallel File Systems: Is there shared storage capable of handling many users reading and writing data simultaneously?
 
 ## Job Schedulers
 
