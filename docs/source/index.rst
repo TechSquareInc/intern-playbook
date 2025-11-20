@@ -46,12 +46,12 @@ Contents
    getting-started/intro-to-linux
    getting-started/learning-vim
    getting-started/learn-bash-scripting
+   getting-started/super-user-privileges
 
 .. toctree::
    :maxdepth: 1
    :caption: Core Tools & Concepts
 
-   core-tools/super-user-privileges
    core-tools/getting-started-with-git
    core-tools/using-screen-and-tmux
    core-tools/learning-markdown
@@ -66,13 +66,13 @@ Contents
    applications/creating-virtual-machine
    applications/nfs-autofs
    applications/apache-web-server
-   applications/using-thunderbird
    applications/intro-to-wazuh
    applications/using-salt
+   applications/using-ansible
+   applications/using-thunderbird
    applications/configure-postfix
    applications/using-checkmk
    applications/using-veracrypt
-   applications/using-ansible
 
 .. toctree::
    :maxdepth: 1
