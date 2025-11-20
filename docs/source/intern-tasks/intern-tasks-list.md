@@ -4,7 +4,7 @@
 
 ---
 
-1. [HPC Kitchen Sink](../introduction/hpc-architecture)
+1. [HPC Kitchen](../introduction/hpc-architecture)
 2. [Installing the System](../getting-started/installing-the-system)
 3. [Introduction to Linux](../getting-started/intro-to-linux)
 4. [Learning Vim](../getting-started/learning-vim)
