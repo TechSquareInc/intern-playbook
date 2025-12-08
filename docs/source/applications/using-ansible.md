@@ -47,4 +47,5 @@
 - [Using Vagrant with KVM/Libvirt](https://github.com/vagrant-libvirt/vagrant-libvirt): A Vagrant plugin that adds a Libvirt provider to Vagrant
 - [Ansible Tutorial for Beginners](https://spacelift.io/blog/ansible-tutorial): Beginner tutorial using Vagrant and Virtual Boxi
 - [Ansible Galaxy Documentation](https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide.html): Official Ansible Galaxy User Guide
+- [Ansible Galaxy Training](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html): Learn Ansible basics, write a simple rolem, and install a role from Ansible Galaxy
 - [The Tao of Ansible](https://github.com/stiliajohny/Book-The-Tao-of-Ansible/blob/master/docs/The-Tao-of-Ansible.pdf): Master the Art of Automation with Simplicity and Grace
