@@ -1,8 +1,8 @@
 # What is High Performance Computing?
 
-**High Performance Computing** is the practice of using multiple computers working together to solve complex problems. HPC can include various system configurations, from standard clusters of computers to custom built supercomputers. These systems are designed to perform tasks that would be too large, slow, or inefficent for a typical server or computer.
+**High Performance Computing** is the practice of using multiple computers working together to solve complex problems. HPC can include various system configurations, from standard clusters of computers to custom built supercomputers. These systems are designed to perform tasks that would be too large, slow, or inefficient for a typical server or computer.
 
-HPC systems are essential tools in scientifc research, engineering, data analysis, artificial intelligence, and more.
+HPC systems are essential tools in scientific research, engineering, data analysis, artificial intelligence, and more.
 
 ## Why HPC Matters
 
@@ -27,7 +27,7 @@ HPC is widely used across many fields, including:
 
 - Scientific research
 - Academic and university labs
-- Aerospace and automative industries
+- Aerospace and automotive industries
 - National laboratories and defense
 - Weather and climate modeling
 - Finance and market simulation
