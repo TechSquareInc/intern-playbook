@@ -12,13 +12,13 @@ Bash (Bourne Again SHell) is a command-line interpreter that executes commands f
 
 **1. Creating a Bash Script**
 
-A bash script is simply a text file with executable commands. By convention, scripts have a `.sh` extension. An basic example of a bash script would look like:
+A bash script is simply a text file with executable commands. By convention, scripts have a `.sh` extension. A basic example of a bash script would look like:
 ```bash
-#! /bin/bash
+#!/bin/bash
 echo "Hello, world!"
 ```
 - The first line `#!/bin/bash` is called a shebang. It tells the system to use Bash to execute the script.
-- The second line is a command `echo` which prints text to the screen. 
+- The second line is a the `echo` command, which prints text to the screen.
 
 **2. Saving and Running the Script**
 
@@ -99,7 +99,7 @@ greet "Chloe"
 
 ### Quality of Life Improvements
 
-The default editor in bash for most linux systems is [nano](https://www.nano-editor.org/dist/v2.2/nano.html). [Vim/Vi](https://linux.die.net/man/1/vi) is an editor that can be especially useful for editing programs like bash scripts. Generally speaking, Vim is a more intuitive text editor, and will likely save you time and sanity when editing text files. You can ask your Linux system to default your editor to vim by calling `export EDITOR=vim`. Additionally, if you want to take things a step further, you can edit your commands with vim keybindings directly in the command line `set -o vi` and if you don't like this change you can always revert back `set -o emacs`. Most `.bashrc` configs come with `ll` being an alias to `"ls -l"`, but if it's not already set, you can add this alias, or other aliases, to the `.bashrc` file `alias ll="ls -l"`.
+The default editor in bash for most linux systems is [nano](https://www.nano-editor.org/dist/v2.2/nano.html). [Vim/Vi](https://linux.die.net/man/1/vi) is an editor that can be especially useful for editing programs like bash scripts. Generally speaking, Vim is a more intuitive text editor, and will likely save you time and sanity when editing text files. You can set your default editor to vim by calling `export EDITOR=vim`. Additionally, if you want to take things a step further, you can edit your commands with vim keybindings directly in the command line `set -o vi` and if you don't like this change you can always revert back `set -o emacs`. Most `.bashrc` configs come with `ll` being an alias to `"ls -l"`, but if it's not already set, you can add this alias, or other aliases, to the `.bashrc` file `alias ll="ls -l"`.
 
 ### Challenge
 [BashBlaze: 7 Days of Bash Scripting](../intern-tasks/7-days-of-bash-scripting)
@@ -111,6 +111,5 @@ The default editor in bash for most linux systems is [nano](https://www.nano-edi
 - [GNU Bash Manual](https://www.gnu.org/software/bash/manual/bash.html): an all in one comprehensive Bash guide.
 - [HackerRank Shell](https://www.hackerrank.com/domains/shell): practice your Bash knowledge by solving challenges.
 - [learnyoubash](https://github.com/denysdovhan/learnyoubash): a work shop based on the [bash-handbook](https://github.com/denysdovhan/bash-handbook).
-- [Nano vs Emacs vs Vim](https://www.redhat.com/en/blog/3-text-editors-compared): A "pro" position on each text editors features.
 - [Shell Style Guide](https://google.github.io/styleguide/shellguide.html#when-to-use-shell): A more advance look at Bash shell scripting.
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/2020/shell-tools/): Shell tools and scripting.

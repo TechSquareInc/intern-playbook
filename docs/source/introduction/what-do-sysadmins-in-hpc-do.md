@@ -22,14 +22,14 @@ Sysadmins in HPC environments often help design and maintain the physical layout
 - Labeling and documentation of all hardware components
 - Coordinating with facilities teams for power usage and backup planning
 
-**Job Scheudling and Resource Management**
+**Job Scheduling and Resource Management**
 
 - Configure and manage the job scheduler
 - Set up partitions, limits, and accounting policies
 - Monitor job queue behavior and help users troubleshoot failed or inefficient jobs
 - Ensure fair usage and optimize cluster utilization
 
-**Secure and Access Control**
+**Security and Access Control**
 
 - Set up user accounts and manage authentication
 - Enforce file and data permissions
@@ -39,8 +39,13 @@ Sysadmins in HPC environments often help design and maintain the physical layout
 **Monitoring and Performance**
 
 - Use tools to monitor system health
-- Collect and analyzes logs for errors, anomalies, or performance issues
+- Collect and analyze logs for errors, anomalies, or performance issues
 - Identify bottlenecks and optimize hardware or configurations
+
+**Documentation**
+- Maintain detailed records of system configurations, hardware layouts, and network topologies
+- Document operational procedures, troubleshooting guides, and best practices
+
 
 ---
 ## Resources

@@ -6,24 +6,22 @@
 Intern Playbook
 ===============
 
-**Welcome** to the HPC System Adminstration Learning Hub. Whether you applied to our internship program or you're simply interested in exploring the world of system adminstration in a high-performancing computing environment, this guide is built for you. Our goal is to give students and early-career professionals a window into the day-to-day work of HPC system administrators, and help you build the skills to get started yourself.
-
-Working in HPC environments can be fast-paced and fascinating, where you'll be challenged to learn what it takes to manage such powerful systems that support cutting-edge research. 
+**Welcome** to the HPC System Adminstration Learning Hub. Whether you're part of our internship program or simply curious about high performance computing, this guide is for you. Our goal is to give students and early-career professionals a window into the day-to-day responsibilities of HPC system administrators, and help you build the skills to get started yourself.
 
 What You'll Find Here
 ---------------------
 This resource is designed to help you:
 
-* Understand the basics of Linux and terminal workflows.
-* Learn the tools HPC system administrators use.
-* Practice with mini-projects inspired by real system administration work.
-* Discover best practices in system administration and security.
+* Understand Linux fundamentals and terminal workflows
+* Learn the tools HPC system administrators rely on
+* Practice with mini-projects inspired by real-world sysadmin tasks
+* Discover best practices in system administration and security
 
-You don't need to have prior experience with HPC or system administration, just a curiousity and a willingness to try things out.
+You don't need to have prior experience with HPC or system administration, just a curiosity and a willingness to try things out.
 
 Structure of the Playbook
 -------------------------
-This site is seperated into different sections. As you'll see from the contents listed on this page, each section is designed to ease you into HPC topics. At the bottom of each page, there is a **Resource** section, which contains links to documentation, additional information, and a variety of tutorials to try out for each topic. Under **Projects & How-Tos**, you'll find a list of intern tasks that link back to relevant topics.
+This site is organized into different sections that introduce HPC concepts step by step. Each pages includes a **Resources** section at the bottom, with links to documentation, tutorials, and additional reading. Under **Projects & How-Tos**, you'll find hands-on intern tasks that tie back to the topics covered through out the playbook.
 
 Contents
 --------
