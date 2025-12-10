@@ -27,6 +27,7 @@ sudo apt install git
 ```bash
 git init
 ```
+> **_NOTE:_** This creates a hidden `.git` subdirectory within the directory that contains necessary structures that git uses to track changes, manage histroy, and perform version control operations for the project directory. If you want to collaborate with others, or back up your code, you will need to create a remote repositroy on GitHub, or GitLab. See: "Connecting to a Remote Repository" below.
 2. **Check repository status**
 - Allows you to monitor changes made since your last commit
 ```bash
@@ -51,7 +52,7 @@ git log
 ```
 
 ## Connecting to a Remote Repository
-To collaborate with others, you'll typically push your code to a platform like GitHub, GitLab, or Bitbucket.
+To collaborate with others, you'll typically push your code to a platform like GitHub, GitLab, or Bitbucket. You will need to create the repository from GitHub, or GitLab's UI. Once created, you can add your initialized local repository to the remote repository by following these steps:
 
 ### Add a remote repository
 ```bash
@@ -82,7 +83,7 @@ git merge branch-name
 git branch -d branch-name
 ```
 
-## Clonig a Repository
+## Cloning a Repository
 To download a remote project and work on it:
 ```bash
 git clone https://github.com/username/project.git
@@ -111,6 +112,10 @@ git checkout -- filename
 - Revert a commit
 ```bash
 git revert <commit-id>
+```
+- Remove a file from staging
+```bash
+git rm <file-name>
 ```
 
 ---

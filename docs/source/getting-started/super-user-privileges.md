@@ -8,9 +8,22 @@
 
 To add a user to the sudoers file, you will need to edit the `/etc/sudoers` file. As best practice, you should use the `visudo` command to open and edit this file. Typically, you'll add a line specifying the user and their privileges, such as `username	ALL=(ALL:ALL)	ALL`. For more information about the sudoers file, visit [this resource](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-configuring-the-linux-sudoers-file).
 
+## Using the `sudo` Command
+
+The `sudo` command allows a regular user to execute specific commands with root (superuser) privileges. Unlike switching to root entirely, `sudo` elevates privileges only for the command being run, making it a safe and auditable method of performing administatrive tasks.
+
+### How `sudo` Works
+
+When a user runs a command with `sudo`, they will be propmted to enter their own password. If the user is listed in the `/etc/sudoers` file, the elevated command will run.
+
+Example:
+```bash
+sudo apt update
+```
+
 ## Using the `su` Command
 
-It is highly reccommended that GUI interfaces not be run as root, as this can easily lead to disaster. It is best to be logged in as a normal unprivileged user and to only use `root` as required. Many commands can only be run as the `root` user. To run these commands, use the `su` command (substitute user).
+It is highly recommended that GUI interfaces not be run as root, as this can easily lead to disaster. It is best to be logged in as a normal unprivileged user and to only use `root` as required. Many commands can only be run as the `root` user. To run these commands, use the `su` command (substitute user).
 
 The `su` command takes the following format:
 
