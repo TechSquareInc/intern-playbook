@@ -1,6 +1,6 @@
 # Learn Python
 
-*Python is a interpreted, object-oriented, high-level programming language with dynamic semantics, known for its readability and ease of use.*
+*Python is an interpreted, object-oriented, high-level programming language with dynamic semantics, known for its readability and ease of use.*
 
 ---
 
@@ -34,7 +34,7 @@ Despite not needing to declare the data type of a variable, Python still associa
 
 #### Conditional Statements
 
-Conditional statements are control mechanisims that allow a program to execute different blocks of code based on whether a specific condition is met.
+Conditional statements are control mechanisms that allow a program to execute different blocks of code based on whether a specific condition is met.
 ```python
 if x > 0:
     print("positive")
@@ -46,7 +46,7 @@ else:
 
 **If**
 
-The `if` statement is the most basic type of conditional statement. It exists a block of code only if the associating condition is true.
+The `if` statement is the most basic type of conditional statement. It executes a block of code only if the associating condition is true.
 ```python
 if condition:
     # code to execute if the condition is true
@@ -58,7 +58,7 @@ The `if-else` statement provides an alternate path of execution if the associate
 if condition:
     # code to execute if condition is true
 else
-    # code to execute if the condition is fasle
+    # code to execute if the condition is false
 ```
 
 **If-Elif-Else**
@@ -75,7 +75,7 @@ else:
 
 #### Loops
 
-A loop is a control flow mechanism that allows code to be executed repeatedly, continuing repitition for a specified number of times or until a condition is met.
+A loop is a control flow mechanism that allows code to be executed repeatedly, continuing repetition for a specified number of times or until a condition is met.
 
 **For**
 
@@ -106,14 +106,14 @@ def greet(name):
     return f"Hello, {name}!"
 ```
 
-Some functions come built-in to Python and are commonly used like, `print()` or `len()`. A complete list of built-in Python functions can be found [here](https://docs.python.org/3/library/functions.html)
+Some functions come built into Python and are commonly used like, `print()` or `len()`. A complete list of built-in Python functions can be found [here](https://docs.python.org/3/library/functions.html)
 
 ### Working with Libraries
-Python libraries are a collection of pre-written, reusbale code modules that extend Python's functionality and allow programmers to perform various tasks without having to write code from scratch.
+Python libraries are a collection of pre-written, reusable code modules that extend Python's functionality and allow programmers to perform various tasks without having to write code from scratch.
 - [**The Python Standard Library**](https://docs.python.org/3/library/index.html) is a collection of modules and packages that are included with the Python installation.
 - [**The Python Package Index (PyPI)**](https://pypi.org/) is an additional active collection of hundreds of thousands of components, from individual programs and modules to packages and entire application development frameworks. PyPI acts as a central hub where developers can share and find Python packages and libraries. PyPI integrates with the `pip` package manager, making it simple to install packages directly from the index.
 
-Use `import` to bring in built-in or external libraries to your code base:
+Use `import` to add built-in or external libraries to your code base:
 ```python
 import math
 print(math.sqrt(16))
