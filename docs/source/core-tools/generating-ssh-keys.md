@@ -6,7 +6,7 @@
 
 ## What are SSH Keys?
 
-SSH keys are a pair of cryptographic keys used to authenticcate a user with a remote server. The key pair consists of:
+SSH keys are a pair of cryptographic keys used to authenticate a user with a remote server. The key pair consists of:
 - **Private key:** Kept secret and stored on your local machine.
 - **Public key:** Shared with the server you want to access.
 
@@ -20,10 +20,11 @@ To generate a new SSH key pair:
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
+>**_NOTE:_** `ssh-keygen` defaults to using ed25519, but some older versions may default to RSA. Use the `-t` flag to specifcy the key type.
 - `-t ed25519` specifies the key type.
 - `-C` adds a label to your key, typically your email address.
 3. You'll be prompted to choose where to save the key. The default location is generally `/home/user/.ssh/id_ed25519`
-4. You'll then be asked to enter a passphrase. This step is optional, but reccomended. Adding a passphrase provides extra security if your private key is ever stolen.
+4. You'll then be asked to enter a passphrase. This step is optional, but reccommended. Adding a passphrase provides extra security if your private key is ever stolen.
 
 ## View Your Public Key
 
@@ -39,7 +40,7 @@ You can now add this public key to your GitHub, GitLab, or any remote server's `
 
 ## Add SSH Key to Agent
 
-To use your SSH key withouth entering the passphrase every time:
+To use your SSH key without entering the passphrase every time:
 1. Start the SSH agent in the background:
 ```
 eval "$(ssh-agent -s)"

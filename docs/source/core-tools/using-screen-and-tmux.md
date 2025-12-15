@@ -6,7 +6,7 @@
 
 ## Introduction
 
-`tmux` and `screen` are terminal multiplexers. This means that both are command line utilities that let you run multiple shell sessions in one terminal, detach and reattach to sessions, and keep long-running tasks alive (even after SSH dissconnection). This can be especially useful when working on remote servers. The two of them perform the same job, however in different ways, and you'll find that some tasks work better in one versus the other.
+`tmux` and `screen` are terminal multiplexers. This means that both are command line utilities that let you run multiple shell sessions in one terminal, detach and reattach to sessions, and keep long-running tasks alive (even after SSH disconnection). This can be especially useful when working on remote servers. The two of them perform the same job, however in different ways, and you'll find that some tasks work better in one versus the other.
 
 ### `screen` Basics
 
@@ -22,7 +22,7 @@
 
 - **Installation:** `sudo yum install tmux`
 - **Start a New Session:** `tmux`
-- **Start a New Sessions and Give it a Name:** `tmux new -s mysession`
+- **Start a New Session and Give it a Name:** `tmux new -s mysession`
 - **Detach from a Session:** `Ctrl` + `B`, then `D`
 - **List Sessions:** `tmux ls`
 - **Reattach to a Session:** `tmux attach -t mysession`
@@ -51,7 +51,7 @@ Generally, `screen` is a more basic, limited, and minimal screen multiplexer. It
 ## Resources
 - [Customize `tmux`](https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/) make tmux pretty and usable
 - [`tmux` Cheatsheet](https://tmuxcheatsheet.com/) guide for easy reference
-- [`tmux` Manual](https://github.com/tmux/tmux/wiki/Getting-Started) indepth guide to using `tmux`
+- [`tmux` Manual](https://github.com/tmux/tmux/wiki/Getting-Started) in-depth guide to using `tmux`
 - [`screen` Basic Usage](https://aperiodic.net/screen/appearance) basic usage guide for `screen`
 - [`screen` Manual](https://www.gnu.org/software/screen/manual/screen.html) complete and indepth `screen` guide
 - [Get the Most out of `screen`](https://www.poweradmin.com/blog/how-to-get-the-most-out-of-the-linux-screen-command/) short guide with some customization options
