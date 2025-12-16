@@ -21,7 +21,7 @@ You don't need to have prior experience with HPC or system administration, just 
 
 Structure of the Playbook
 -------------------------
-This site is organized into different sections that introduce HPC concepts step by step. Each pages includes a **Resources** section at the bottom, with links to documentation, tutorials, and additional reading. Under **Projects & How-Tos**, you'll find hands-on intern tasks that tie back to the topics covered through out the playbook.
+This site is organized into different sections that introduce HPC concepts step by step. Each page includes a **Resources** section at the bottom, with links to documentation, tutorials, and additional reading. Under **Projects & How-Tos**, you'll find hands-on intern tasks that tie back to the topics covered through out the playbook.
 
 Contents
 --------
