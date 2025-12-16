@@ -4,7 +4,7 @@
 
 ## Sphinx
 
-[Sphinx](https://www.sphinx-doc.org/en/master/index.html) is a powerful documentation generator wrritten in Python. It takes plain-text source files, usually written in [reStructured Text](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), but also supports [Markdown](../core-tools/learning-markdown), and converts them into html pages. Sphinx lets you organize your content into multiple pages, create tables of contents, and embed code examples.
+[Sphinx](https://www.sphinx-doc.org/en/master/index.html) is a powerful documentation generator written in Python. It takes plain-text source files, usually written in [reStructured Text](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), but also supports [Markdown](../core-tools/learning-markdown), and converts them into html pages. Sphinx lets you organize your content into multiple pages, create tables of contents, and embed code examples.
 
 ## Read the Docs
 
@@ -30,7 +30,7 @@ pip install myst-parser
 
 **3. Initialize Your Sphinx Project**
 
-Sphinx provides a command-line tool called `sphinx-quickstart` that sets up the project structure. After running this `sphinx-quickstart` command, Sphinx  will have created a source directory with `conf.py` and a root document, `index.rst`. This root document serves are a welcome page, as well as contains the "table of contents tree" or *toctree*.
+Sphinx provides a command-line tool called `sphinx-quickstart` that sets up the project structure. After running this `sphinx-quickstart` command, Sphinx  will have created a source directory with `conf.py` and a root document, `index.rst`. This root document serves as a welcome page, as well as contains the "table of contents tree" or *toctree*.
 
 The `source` directory is where you will place your markdown files. You'll also see a `build` folder where the generated html pages wil appear. After making a few pages, or editing pages, from the `docs` directory, you can run `make html` to see these pages built in your browser.
 
@@ -58,13 +58,13 @@ docs/build/
 
 Once you have a repo established on Git, you'll need to link the project to Read the Docs. First, create an  account. Navigate to the [Sign Up Page](https://app.readthedocs.org/accounts/signup/) and choose the option "Sign Up with GitHub" (or GitLab, depending on preference). On the authorization page, click the green `Authorize readthedocs` button. Finish following the account configuration steps, including the "verify your email address" step, and then you should see your Read the Docs dashboard.
 
-Next, you can import your Git project to Read the Docs. From your dashboard, click the `Import a Project` button and add the Git project with your Sphinx pages. You'll need to fill out a few details about your project, inclduing Name, the Repository URL, and the Default branch. Click `Next` to create the project, and open the project home. From you project home, if the build has finished, you will see a green "Build completed" indicator. Once your pages have been built, click the `View docs` button to your documentation live.
+Next, you can import your Git project to Read the Docs. From your dashboard, click the `Import a Project` button and add the Git project with your Sphinx pages. You'll need to fill out a few details about your project, including Name, the Repository URL, and the Default branch. Click `Next` to create the project, and open the project home. From you project home, if the build has finished, you will see a green "Build completed" indicator. Once your pages have been built, click the `View docs` button to your documentation live.
 
 > **Note:** Read the Docs documentation has a more complete tutorial on their [documentation site](https://docs.readthedocs.com/platform/latest/tutorial/index.html#) that takes you through setting up a project using an already created sphinx project [template](https://github.com/readthedocs/tutorial-template/).
 
 ### Best Practices
 
-- Organize content logically with headings, subheadings, and seperate pages.
+- Organize content logically with headings, subheadings, and separate pages.
 - Be specific, consistent, and include clear examples and references for commands or scripts.
 - Update your documentation whenever scripts, workflows, or tools change.
 

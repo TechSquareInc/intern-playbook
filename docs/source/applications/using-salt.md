@@ -1,6 +1,6 @@
 # Using Salt
 
-*Introduction to SaltStack, a Linux configuration managment tool.*
+*Introduction to SaltStack, a Linux configuration management tool.*
 
 ---
 
@@ -20,7 +20,7 @@ A deeper introduction to **Salt** can be found [here](https://docs.saltproject.i
 The Salt Project documentation offers a [quick installation guide](https://docs.saltproject.io/salt/install-guide/en/latest/index.html) for Linux based operating systems. If you are running RHEL-like systems, follow the [Linux (RPM) Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/linux-rpm.html). If you are running Debian-like systems, follow the [Linux (DEB) Install Guide](https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/linux-deb.html). Each guide includes post-installation steps for configuring the Salt master and minions, starting the master and minion services, accepting the minion keys, and verifying your Salt installation. 
 
 ## Understanding Salt
-As previously mentioned, Salt is a powerful open-source tool for automating system configuration, remote execution, and infrastrcuture management. It uses a master/minion model where the master controls and sends instructions and the minion recieves and applies configurations. There are several key concepts that will be important to know when working with Salt.
+As previously mentioned, Salt is a powerful open-source tool for automating system configuration, remote execution, and infrastructure management. It uses a master/minion model where the master controls and sends instructions and the minion receives and applies configurations. There are several key concepts that will be important to know when working with Salt.
 
 ### Key Concepts
 |**Concept**|**Description**                   |
