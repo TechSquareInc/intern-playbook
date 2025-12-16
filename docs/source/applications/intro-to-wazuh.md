@@ -24,7 +24,7 @@ Wazuh follows a client-server distributed architecture made up of components tha
 |**Component**|**Description**|
 |:------------|:--------------|
 |Agents|<ul><li>Installed on monitored endpoints (servers, workstations, cloud instances)</li><li>Collect logs, system information, file integrity data, and more</li><li>Perform local analysis and forward relevant data to the Wazuh server</li><li>Lightweight and cross-platform (Linux, Windows, MacOS)</li></ul>|
-|Wazuh Server|<ul><li>Acts as the central processing hub</li><li>Recieves data from agents</li><li>Performs deeper analysis of logs and events</li><li>Generates alerts and manages agents</li><li>Can also ingest logs from agentless sources</li></ul>|
+|Wazuh Server|<ul><li>Acts as the central processing hub</li><li>Receives data from agents</li><li>Performs deeper analysis of logs and events</li><li>Generates alerts and manages agents</li><li>Can also ingest logs from agentless sources</li></ul>|
 |Indexer|<ul><li>Stores security events and alerts</li><li>Enables search and analysis of historical data</li><li>Scales to handle large amounts of data from many agents</li></ul>|
 |Visualization (Wazuh Dashboard)|<ul><li/>Web-based user interface</li><li>Displays security alerts, dashboards, compliance reports, and system status</li><li>Allows users to drill down into specific events and customize dashboards</li></ul>|
 

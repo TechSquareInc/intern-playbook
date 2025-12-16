@@ -27,7 +27,7 @@
 5. The results are reported back in the terminal.
 
 ## Using Vagrant as a Development Environment
-[Vagrant](https://developer.hashicorp.com/vagrant) is a tool for managing virtual machine environments in a reproducible way using simple configuration files called `Vagrantfile`. Vagrant makes it easy to rebuild development environments, which is great for testing Salt states before applying them in production. Vagrant is also compatible with KVM environments. Learn more about using Vagrant with your KVM / Libvirt environment [here](https://github.com/vagrant-libvirt/vagrant-libvirt).
+[Vagrant](https://developer.hashicorp.com/vagrant) is a tool for managing virtual machine environments in a reproducible way using simple configuration files called `Vagrantfile`. Vagrant makes it easy to rebuild development environments, which is great for testing Ansible playbooks before applying them in production. Vagrant is also compatible with KVM environments. Learn more about using Vagrant with your KVM / Libvirt environment [here](https://github.com/vagrant-libvirt/vagrant-libvirt).
 
 ### Ansible Lab using Vagrant
 
@@ -35,7 +35,7 @@
 
 ## Ansible Galaxy
 
-[Ansible Galaxy](https://galaxy.ansible.com/ui/) is a hub and command-line tool for sharing and downloading Ansible roles and collections. It allows you to quickly reuse automation content created by the community or your organization. Ansible Galaxy provides Roles, and Collections. Roles are a way to organize and group tasks into a single, reusable container. They provide a clean directroy structure for performing a specific task. Collections are bundles of roles, playbooks, plugins, and modules, typically organized by vendor or topic. More information on installing and using Ansible Galaxy is available on their [Community User Guide](https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide.html).
+[Ansible Galaxy](https://galaxy.ansible.com/ui/) is a hub and command-line tool for sharing and downloading Ansible roles and collections. It allows you to quickly reuse automation content created by the community or your organization. Ansible Galaxy provides Roles, and Collections. Roles are a way to organize and group tasks into a single, reusable container. They provide a clean directory structure for performing a specific task. Collections are bundles of roles, playbooks, plugins, and modules, typically organized by vendor or topic. More information on installing and using Ansible Galaxy is available on their [Community User Guide](https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide.html).
 
 ---
 

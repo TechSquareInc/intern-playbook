@@ -18,7 +18,7 @@ At the heart of every HPC environment is the job scheduler. Since an HPC system 
 
 ## Parallel Computing
 
-Another defining feature of HPC is parallel computing, which allows many processors to work on different parts of a problem at the same time. Rather than a single processor completing tasks sequentially, hundreds or even thoasands of processors collaborate to solve complex problems faster. To make this coordination possible, developers rely on programming models such as [MPI (Message Passing Interface)](https://mpitutorial.com/) for distributed systems, [OpenMP](https://hpc-tutorials.llnl.gov/openmp/) for shared memory processing, and [CUDA](https://en.wikipedia.org/wiki/CUDA) for GPU acceleration.
+Another defining feature of HPC is parallel computing, which allows many processors to work on different parts of a problem at the same time. Rather than a single processor completing tasks sequentially, hundreds or even thousands of processors collaborate to solve complex problems faster. To make this coordination possible, developers rely on programming models such as [MPI (Message Passing Interface)](https://mpitutorial.com/) for distributed systems, [OpenMP](https://hpc-tutorials.llnl.gov/openmp/) for shared memory processing, and [CUDA](https://en.wikipedia.org/wiki/CUDA) for GPU acceleration.
 
 ## Data and Storage
 

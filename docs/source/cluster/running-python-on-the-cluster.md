@@ -1,6 +1,6 @@
 # Running Python on the Cluster
 
-*Python is a high-level, interrpreted, general-purpose programming language.*
+*Python is a high-level, interpreted, general-purpose programming language.*
 
 ---
 
@@ -21,7 +21,7 @@ To make an executable Python script, make sure, like any Bash script, you start 
 #### Shebang
 Use `#!/usr/bin/env python3` instead of `#!/bin/python3`.
 - The former searches that user's `PATH` to find the `python3` binary.
-- The latter assumes it is always installed to `/bin/` whcih can cause issues.
+- The latter assumes it is always installed to `/bin/` which can cause issues.
 
 ```bash
 # Right:
