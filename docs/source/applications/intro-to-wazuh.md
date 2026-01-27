@@ -64,7 +64,7 @@ At this point, you should be able to open your browser and log into the Wazuh da
 Up to this point, this installation will allow you to explore the Wazuh dashboard, and become more familair with its features. If you are curious about adding additional endpoints to monitor, follow the steps laid out in the Wazuh [adding an agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html) documentation.
 
 ## Wazuh Tutorials
-- [Crash Course](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-linux.html): An in-depth and complete guide to using Wazuh, configuring endpoints, and exploring its features. This tutorial also walks through deploying Wazuh with docker. 
+- [Crash Course](https://youtu.be/fvMus-Tc83E?si=KsJuwX61yYXrFN5k): An in-depth and complete guide to using Wazuh, configuring endpoints, and exploring its features. This tutorial also walks through deploying Wazuh with docker.
 - [Creating Dashboards](https://www.youtube.com/watch?v=QrcAhd5P7xw): Wazuh offers the ability to create different dashboards that highlight certain or specific pieces of log data. This tutorial walks you through how to do that.
 
 ---
