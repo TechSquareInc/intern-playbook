@@ -41,6 +41,7 @@
 
 ## Resources
 - [Ansible Docs](https://docs.ansible.com/ansible/latest/getting_started/index.html): Getting started with Ansible
+- [Ansible Labs by KodeKloudStudio](https://kodekloud.com/studio/labs/ansible): Ansible learning labs
 - [Ansible Lab](https://github.com/chloegerhardson/ansible_lab): Ansible Lab sandbox environment
 - [Vagrant Documentation](https://developer.hashicorp.com/vagrant): Offical Vagrant documentation site
 - [Installing Vagrant](https://developer.hashicorp.com/vagrant/install): Basic steps to get Vagrant installed in your environment
