@@ -35,6 +35,7 @@ Contents
    introduction/what-is-hpc
    introduction/what-do-sysadmins-in-hpc-do
    introduction/hpc-architecture
+   introduction/power-and-cooling
 
 .. toctree::
    :maxdepth: 1
