@@ -44,3 +44,5 @@ A few high density racks can consume as much cooling as an entire small server r
 - [Ohm's Law](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/ohmlaw.html): The physics formula electrical load planning directly derives from.
 - [Ten Simple Rules for Building and Maintaining Sustainable High-Performance Computing Infrastructure](https://pmc.ncbi.nlm.nih.gov/articles/PMC12453185/): Ten practical rules for building sustainable power solutions in resource-limited settings.
 - [Energy Efficieny Trends in HPC](https://arxiv.org/html/2503.17283v1): Practical advice on how to analyze and optimize applications to reduce their energy consumption without compromising on performance.
+- [Power and Cooling Design for Extreme Workloads](https://www.araner.com/blog/hpc-data-centers-power-cooling-design-extreme-workloads): Key aspects of integrated high density data center design.
+- [Power and Energy Consumption of HPC Systems](https://www.youtube.com/watch?v=d_aW6nDoYUg): In depth demo of how much power and energy is consumed by HPC systems.
