@@ -113,3 +113,4 @@ The default editor in bash for most linux systems is [nano](https://www.nano-edi
 - [learnyoubash](https://github.com/denysdovhan/learnyoubash): a work shop based on the [bash-handbook](https://github.com/denysdovhan/bash-handbook).
 - [Shell Style Guide](https://google.github.io/styleguide/shellguide.html#when-to-use-shell): A more advance look at Bash shell scripting.
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/2020/shell-tools/): Shell tools and scripting.
+- [Scripts I Wrote That I Use All the Time](https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/): A collection of scripts from a decade-long script writer.
