@@ -131,6 +131,8 @@ Some common libraries include:
 - [Python for Beginners](https://www.python.org/about/gettingstarted/): A helpful resource for installing and learning Python.
 - [Python for Non-Programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): A list of resources for those new to programming and Python.
 - [Beginners Guide to Python](https://wiki.python.org/moin/BeginnersGuide/Programmers): A list of resources for those with some programming experience.
+- [Python Key Concepts](https://exercism.org/tracks/python/concepts): Learn and master 17 key concepts in Python.
+- [Python Exercises](https://exercism.org/tracks/python/exercises): Explore over 150+ python exercises.
 - [Google's Python Class](https://developers.google.com/edu/python): A free Python tutorial with videos and code exercises.
 - [Learn Python](https://www.learnpython.org/): An interactive in-the-browser tutorial for learning Python.
 - [PyPI](https://pypi.org/): A repository of software for the Python programming language.
