@@ -26,3 +26,4 @@
 - [Txtify.it](https://txtify.it/): Convert any webpage to text - excellent when combined with curl
 - [Dillinger.io](https://dillinger.io/): Browser markdown editor - exports to pdf
 - [Sshuttle](https://sshuttle.readthedocs.io/en/stable/overview.html): Get to know Sshuttle - a transparent proxy-based VPN using ssh
+- [SQL Murder Mystery](https://mystery.knightlab.com/walkthrough.html): Use SQL queries to solve a murder mystery. Great for beginners, and experienced SQL sleuths.
