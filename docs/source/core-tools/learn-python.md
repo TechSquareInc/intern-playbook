@@ -138,3 +138,4 @@ Some common libraries include:
 - [PyPI](https://pypi.org/): A repository of software for the Python programming language.
 - [The Python Standard Library](https://docs.python.org/3/library/index.html): Deep dive into Python's standard library.
 - [Built-in Functions](https://docs.python.org/3/library/functions.html): A list of functions built-in to the python interpreter.
+- [CS50x: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science): A freely auditable, programming-forward, learning resource from Harvard University.
